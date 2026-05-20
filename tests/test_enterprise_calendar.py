@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-from nanobot.calendar.service import CalendarEvent, CalendarService
+from copala.calendar.service import CalendarEvent, CalendarService
 
 
 class FakeProvider:

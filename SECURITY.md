@@ -1,263 +1,196 @@
-# Security Policy
+# Copala 安全说明
 
-## Reporting a Vulnerability
+Copala 是一个个人智能助理 Agent，能够接入 QQ、飞书、邮件、飞书日历、高德地图、Tavily 搜索、RAG 长期记忆和本地 Skills。它会处理用户的聊天记录、日程、邮件摘要、偏好记忆和自动生成脚本，因此请把它视为一个拥有个人数据访问能力的本地应用来管理。
 
-If you discover a security vulnerability in nanobot, please report it by:
+## 安全边界
 
-1. **DO NOT** open a public GitHub issue
-2. Create a private security advisory on GitHub or contact the repository maintainers (xubinrencs@gmail.com)
-3. Include:
-   - Description of the vulnerability
-   - Steps to reproduce
-   - Potential impact
-   - Suggested fix (if any)
+Copala 默认运行在本机环境中，主要数据目录为：
 
-We aim to respond to security reports within 48 hours.
-
-## Security Best Practices
-
-### 1. API Key Management
-
-**CRITICAL**: Never commit API keys to version control.
-
-```bash
-# ✅ Good: Store in config file with restricted permissions
-chmod 600 ~/.nanobot/config.json
-
-# ❌ Bad: Hardcoding keys in code or committing them
+```text
+C:\Users\Weichu\.copala
 ```
 
-**Recommendations:**
-- Store API keys in `~/.nanobot/config.json` with file permissions set to `0600`
-- Consider using environment variables for sensitive keys
-- Use OS keyring/credential manager for production deployments
-- Rotate API keys regularly
-- Use separate API keys for development and production
+该目录中可能包含 API Key、飞书 OAuth Token、QQ/飞书配置、RAG 记忆库、会话历史、自动学习的脚本和临时任务记录。不要把这个目录提交到 GitHub。
 
-### 2. Channel Access Control
+## 凭证管理
 
-**IMPORTANT**: Always configure `allowFrom` lists for production use.
+不要将以下内容写入代码、README、测试数据或 Git 仓库：
+
+- 大模型 API Key
+- QQ `appId` / `secret`
+- 飞书 `appId` / `appSecret`
+- 飞书 OAuth 用户 token
+- Tavily Search Key
+- 高德地图 Web 服务 Key
+- 邮箱 IMAP / SMTP 密码
+- GitHub Token
+
+推荐配置方式：
 
 ```json
 {
+  "providers": {
+    "deepseek": {
+      "apiKey": "YOUR_API_KEY"
+    }
+  },
   "channels": {
-    "telegram": {
-      "enabled": true,
-      "token": "YOUR_BOT_TOKEN",
-      "allowFrom": ["123456789", "987654321"]
-    },
-    "whatsapp": {
-      "enabled": true,
-      "allowFrom": ["+1234567890"]
+    "qq": {
+      "appId": "YOUR_QQ_APP_ID",
+      "secret": "YOUR_QQ_SECRET"
     }
   }
 }
 ```
 
-**Security Notes:**
-- In `v0.1.4.post3` and earlier, an empty `allowFrom` allows all users. In newer versions (including source builds), **empty `allowFrom` denies all access** — set `["*"]` to explicitly allow everyone.
-- Get your Telegram user ID from `@userinfobot`
-- Use full phone numbers with country code for WhatsApp
-- Review access logs regularly for unauthorized access attempts
+配置文件应只放在本机：
 
-### 3. Shell Command Execution
+```text
+C:\Users\Weichu\.copala\config.json
+```
 
-The `exec` tool can execute shell commands. While dangerous command patterns are blocked, you should:
+提交前建议检查：
 
-- ✅ Review all tool usage in agent logs
-- ✅ Understand what commands the agent is running
-- ✅ Use a dedicated user account with limited privileges
-- ✅ Never run nanobot as root
-- ❌ Don't disable security checks
-- ❌ Don't run on systems with sensitive data without careful review
+```powershell
+rg -n "apiKey|appSecret|clientSecret|secret|token|tvly-|sk-" .
+git status --short
+```
 
-**Blocked patterns:**
-- `rm -rf /` - Root filesystem deletion
-- Fork bombs
-- Filesystem formatting (`mkfs.*`)
-- Raw disk writes
-- Other destructive operations
+## GitHub 提交安全
 
-### 4. File System Access
+提交前确认仓库中不包含：
 
-File operations have path traversal protection, but:
+- `.copala/`
+- `workspace/`
+- OAuth token 文件，例如 `calendar/feishu_user_token.json`
+- 本地会话、记忆数据库、日志文件
+- 自动生成但未审查的脚本
 
-- ✅ Run nanobot with a dedicated user account
-- ✅ Use filesystem permissions to protect sensitive directories
-- ✅ Regularly audit file operations in logs
-- ❌ Don't give unrestricted access to sensitive files
+当前项目 `.gitignore` 应继续忽略虚拟环境、缓存、构建产物和日志。若新增本地数据目录，也应先加入 `.gitignore` 再提交。
 
-### 5. Network Security
+## 通道访问控制
 
-**API Calls:**
-- All external API calls use HTTPS by default
-- Timeouts are configured to prevent hanging requests
-- Consider using a firewall to restrict outbound connections if needed
+Copala 支持 QQ、飞书、Telegram、Discord、钉钉、Slack、Email 等通道。生产或长期运行时，应限制允许访问的用户：
 
-**WhatsApp Bridge:**
-- The bridge binds to `127.0.0.1:3001` (localhost only, not accessible from external network)
-- Set `bridgeToken` in config to enable shared-secret authentication between Python and Node.js
-- Keep authentication data in `~/.nanobot/whatsapp-auth` secure (mode 0700)
+```json
+{
+  "channels": {
+    "qq": {
+      "enabled": true,
+      "allowFrom": ["你的QQ用户ID或群ID"]
+    },
+    "feishu": {
+      "enabled": true,
+      "allowFrom": ["你的飞书open_id"]
+    }
+  }
+}
+```
 
-### 6. Dependency Security
+不要在公网环境中使用无限制的 `allowFrom`。如果为了调试临时放开访问，测试后应立即恢复白名单。
 
-**Critical**: Keep dependencies updated!
+## 日历与生活事件写入
 
-```bash
-# Check for vulnerable dependencies
+Copala 可以读取和写入飞书私人日历，并能从聊天或邮件中识别会议、面试、体检、聚餐、航班、酒店等生活事件。
+
+安全要求：
+
+- 自动写入只应面向高置信、时间明确的事件。
+- 缺少关键字段时应询问用户，不应直接写入。
+- 修改或删除真实日程前应保留来源、摘要和 `event_id`。
+- 低置信事件、账单、快递、普通待办应优先生成提醒，而不是直接写入日历。
+- 写入失败时只向用户返回可理解提示，详细 API 错误留在后台日志。
+
+## RAG 长期记忆隐私
+
+Copala 的 RAG 记忆库会保存用户偏好、邮件事实、日程习惯、旅行偏好、购物偏好和历史规划结果。相关文件通常位于工作区或 `.copala` 目录下。
+
+注意事项：
+
+- 不要把 RAG 数据库或会话历史提交到 GitHub。
+- 不要把包含私人信息的 demo 数据放进 `case/`。
+- 删除记忆时应同时删除结构化记录、FTS 索引和 embedding。
+- 面试演示时建议使用脱敏 demo 数据。
+
+## Skills 与自动学习脚本
+
+Copala 支持 Skills，并可以把机器人学到的脚本沉淀到工作区。这个能力很适合展示 Agent 自学习，但也需要额外审查。
+
+安全要求：
+
+- 自动生成的脚本运行前必须人工检查。
+- 不要保存包含密钥、密码、Cookie、Token 的脚本。
+- 不要让脚本默认访问用户主目录、系统目录或浏览器数据。
+- 涉及文件删除、移动、批量修改的脚本必须限制在指定工作区。
+- Skills 文档只描述能力和调用规则，不应包含真实凭证。
+
+## Shell 与文件工具
+
+Copala 的工具系统包含文件读写和命令执行能力。使用时应遵守：
+
+- 不要以管理员权限长期运行 Copala。
+- 不要在包含敏感资料的目录中开放 unrestricted 文件访问。
+- 批量删除、移动、覆盖文件前必须确认目标路径。
+- 命令执行应设置超时，并记录日志。
+- 对用户不可见的底层异常不应直接发送到 QQ/飞书聊天中。
+
+## 外部服务风险
+
+Copala 会调用多个外部服务：
+
+- LLM Provider：会接收提示词和上下文。
+- 飞书 OpenAPI：用于消息和日历。
+- 高德地图：用于天气、地理编码和路线规划。
+- Tavily Search：用于公开网页搜索。
+- 邮件服务器：用于 IMAP / SMTP。
+
+不要向外部服务发送不必要的私人原文。邮件、日程和聊天内容进入 LLM 前应尽量压缩、摘要和脱敏。
+
+## 日志与错误处理
+
+日志中可能包含用户消息、工具参数、API 错误、日程标题或邮件摘要。建议：
+
+- 不把日志提交到 Git。
+- 长期运行时定期清理日志。
+- 用户侧只展示友好错误提示。
+- 后台日志保留必要的排查信息，但不打印完整密钥。
+
+## 依赖安全
+
+建议定期检查依赖：
+
+```powershell
 pip install pip-audit
 pip-audit
-
-# Update to latest secure versions
-pip install --upgrade nanobot-ai
 ```
 
-For Node.js dependencies (WhatsApp bridge):
-```bash
-cd bridge
-npm audit
-npm audit fix
+更新项目依赖前先运行测试：
+
+```powershell
+D:\Environment\anaconda3\envs\py311\python.exe -m pytest tests\test_memory_rag.py tests\test_calendar_direct_intent.py tests\test_outing_planning.py tests\test_web_search_tool.py tests\test_smart_reminders.py tests\test_daily_planning.py
 ```
 
-**Important Notes:**
-- Keep `litellm` updated to the latest version for security fixes
-- We've updated `ws` to `>=8.17.1` to fix DoS vulnerability
-- Run `pip-audit` or `npm audit` regularly
-- Subscribe to security advisories for nanobot and its dependencies
+## 运行前检查清单
 
-### 7. Production Deployment
+- [ ] `config.json` 未提交到仓库。
+- [ ] `.copala/`、`workspace/` 未提交到仓库。
+- [ ] QQ / 飞书通道配置了 `allowFrom`。
+- [ ] 飞书 OAuth token 文件仅保存在本机。
+- [ ] RAG 记忆库不包含未脱敏演示数据。
+- [ ] 自动学习脚本已经人工审查。
+- [ ] 高风险工具调用不会越过项目工作区。
+- [ ] GitHub push 前执行过敏感词扫描。
 
-For production use:
+## 安全事件处理
 
-1. **Isolate the Environment**
-   ```bash
-   # Run in a container or VM
-   docker run --rm -it python:3.11
-   pip install nanobot-ai
-   ```
+如果怀疑凭证泄露：
 
-2. **Use a Dedicated User**
-   ```bash
-   sudo useradd -m -s /bin/bash nanobot
-   sudo -u nanobot nanobot gateway
-   ```
+1. 立即撤销相关 API Key、OAuth Token 或 GitHub Token。
+2. 检查 Git 历史中是否提交过敏感文件。
+3. 检查 `.copala` 中的日志和会话记录。
+4. 重新生成飞书、QQ、LLM、Tavily、高德、邮箱等凭证。
+5. 必要时清空 RAG 记忆库和会话历史。
 
-3. **Set Proper Permissions**
-   ```bash
-   chmod 700 ~/.nanobot
-   chmod 600 ~/.nanobot/config.json
-   chmod 700 ~/.nanobot/whatsapp-auth
-   ```
+## 更新时间
 
-4. **Enable Logging**
-   ```bash
-   # Configure log monitoring
-   tail -f ~/.nanobot/logs/nanobot.log
-   ```
-
-5. **Use Rate Limiting**
-   - Configure rate limits on your API providers
-   - Monitor usage for anomalies
-   - Set spending limits on LLM APIs
-
-6. **Regular Updates**
-   ```bash
-   # Check for updates weekly
-   pip install --upgrade nanobot-ai
-   ```
-
-### 8. Development vs Production
-
-**Development:**
-- Use separate API keys
-- Test with non-sensitive data
-- Enable verbose logging
-- Use a test Telegram bot
-
-**Production:**
-- Use dedicated API keys with spending limits
-- Restrict file system access
-- Enable audit logging
-- Regular security reviews
-- Monitor for unusual activity
-
-### 9. Data Privacy
-
-- **Logs may contain sensitive information** - secure log files appropriately
-- **LLM providers see your prompts** - review their privacy policies
-- **Chat history is stored locally** - protect the `~/.nanobot` directory
-- **API keys are in plain text** - use OS keyring for production
-
-### 10. Incident Response
-
-If you suspect a security breach:
-
-1. **Immediately revoke compromised API keys**
-2. **Review logs for unauthorized access**
-   ```bash
-   grep "Access denied" ~/.nanobot/logs/nanobot.log
-   ```
-3. **Check for unexpected file modifications**
-4. **Rotate all credentials**
-5. **Update to latest version**
-6. **Report the incident** to maintainers
-
-## Security Features
-
-### Built-in Security Controls
-
-✅ **Input Validation**
-- Path traversal protection on file operations
-- Dangerous command pattern detection
-- Input length limits on HTTP requests
-
-✅ **Authentication**
-- Allow-list based access control — in `v0.1.4.post3` and earlier empty means allow all; in newer versions empty means deny all (`["*"]` to explicitly allow all)
-- Failed authentication attempt logging
-
-✅ **Resource Protection**
-- Command execution timeouts (60s default)
-- Output truncation (10KB limit)
-- HTTP request timeouts (10-30s)
-
-✅ **Secure Communication**
-- HTTPS for all external API calls
-- TLS for Telegram API
-- WhatsApp bridge: localhost-only binding + optional token auth
-
-## Known Limitations
-
-⚠️ **Current Security Limitations:**
-
-1. **No Rate Limiting** - Users can send unlimited messages (add your own if needed)
-2. **Plain Text Config** - API keys stored in plain text (use keyring for production)
-3. **No Session Management** - No automatic session expiry
-4. **Limited Command Filtering** - Only blocks obvious dangerous patterns
-5. **No Audit Trail** - Limited security event logging (enhance as needed)
-
-## Security Checklist
-
-Before deploying nanobot:
-
-- [ ] API keys stored securely (not in code)
-- [ ] Config file permissions set to 0600
-- [ ] `allowFrom` lists configured for all channels
-- [ ] Running as non-root user
-- [ ] File system permissions properly restricted
-- [ ] Dependencies updated to latest secure versions
-- [ ] Logs monitored for security events
-- [ ] Rate limits configured on API providers
-- [ ] Backup and disaster recovery plan in place
-- [ ] Security review of custom skills/tools
-
-## Updates
-
-**Last Updated**: 2026-02-03
-
-For the latest security updates and announcements, check:
-- GitHub Security Advisories: https://github.com/HKUDS/nanobot/security/advisories
-- Release Notes: https://github.com/HKUDS/nanobot/releases
-
-## License
-
-See LICENSE file for details.
+最后更新：2026-05-20

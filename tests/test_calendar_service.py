@@ -1,7 +1,7 @@
 from datetime import date
 from pathlib import Path
 
-from nanobot.calendar.service import CalendarService
+from copala.calendar.service import CalendarService
 
 
 def test_calendar_service_reads_json_and_ingests_memory(tmp_path: Path) -> None:

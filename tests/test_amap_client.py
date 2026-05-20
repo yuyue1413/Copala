@@ -2,7 +2,7 @@ import asyncio
 
 import pytest
 
-from nanobot.context_awareness.amap import AmapClient, AmapError, AmapRouteUnavailable
+from copala.context_awareness.amap import AmapClient, AmapError, AmapRouteUnavailable
 
 
 def test_amap_geocode_success() -> None:
@@ -94,7 +94,7 @@ def test_amap_engine_response_error_is_route_unavailable() -> None:
         async def get(self, url, params=None):
             return await fake_get(url, params=params)
 
-    import nanobot.context_awareness.amap as amap_module
+    import copala.context_awareness.amap as amap_module
 
     original = amap_module.httpx.AsyncClient
     amap_module.httpx.AsyncClient = FakeAsyncClient

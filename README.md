@@ -1,6 +1,6 @@
-# Nanobot 个性化长期记忆 Agent
+# Copala 个性化长期记忆 Agent
 
-这是一个面向个人日常生活的 AI 助手项目。项目基于 nanobot 扩展，实现了长期记忆 RAG、邮件读取、QQ 对话、个人日历读取、飞书私人日历 OAuth 授权、旅行/购物规划，以及机器人自学习技能沉淀。
+这是一个面向个人日常生活的 AI 助手项目。项目基于 copala 扩展，实现了长期记忆 RAG、邮件读取、QQ 对话、个人日历读取、飞书私人日历 OAuth 授权、旅行/购物规划，以及机器人自学习技能沉淀。
 
 核心目标不是做一个普通聊天机器人，而是展示一个 Agent 如何持续积累用户偏好、日程习惯、邮件线索和任务上下文，并在后续对话中通过 RAG 动态召回，给出更个性化、更连续的回复。
 
@@ -33,7 +33,7 @@
 ## 项目结构
 
 ```text
-nanobot/
+copala/
   agent/
     memory_rag/          # 长期记忆 RAG：store、schema、embedding、extractor
     tools/               # Agent 工具：memory、calendar、email、planning、learned
@@ -52,7 +52,7 @@ nanobot/
     loader.py            # 配置加载与保存
   templates/             # 工作区模板：SOUL、TOOLS、MEMORY 等
 tests/                   # 单元测试
-case/                    # 本地日历与演示数据
+case/                    # 可选本地示例数据；默认只保留脱敏说明文件
 ```
 
 ## 环境准备
@@ -78,19 +78,19 @@ pip install -e .
 初始化配置和工作区：
 
 ```powershell
-nanobot onboard
+copala onboard
 ```
 
 默认配置文件位置：
 
 ```text
-C:\Users\Weichu\.nanobot\config.json
+C:\Users\Weichu\.copala\config.json
 ```
 
 默认工作区位置：
 
 ```text
-C:\Users\Weichu\.nanobot\workspace
+C:\Users\Weichu\.copala\workspace
 ```
 
 注意：修改 JSON 文件时统一使用 UTF-8、2 空格缩进、文件末尾保留换行。
@@ -126,13 +126,13 @@ C:\Users\Weichu\.nanobot\workspace
 直接在 CLI 测试 Agent：
 
 ```powershell
-nanobot agent -m "你好，介绍一下你现在支持哪些功能"
+copala agent -m "你好，介绍一下你现在支持哪些功能"
 ```
 
 启动网关和聊天通道：
 
 ```powershell
-nanobot gateway
+copala gateway
 ```
 
 ## QQ 机器人配置
@@ -155,7 +155,7 @@ nanobot gateway
 启动：
 
 ```powershell
-nanobot gateway
+copala gateway
 ```
 
 然后在 QQ 中向机器人提问，例如：
@@ -173,7 +173,7 @@ nanobot gateway
 长期记忆模块位于：
 
 ```text
-nanobot/agent/memory_rag/
+copala/agent/memory_rag/
 ```
 
 核心数据流：
@@ -197,9 +197,9 @@ ContextBuilder 注入当前对话上下文
 常用命令：
 
 ```powershell
-nanobot memory reindex
-nanobot memory search "旅行偏好"
-nanobot memory list --type travel_preference
+copala memory reindex
+copala memory search "旅行偏好"
+copala memory list --type travel_preference
 ```
 
 配置项：
@@ -236,7 +236,7 @@ nanobot memory list --type travel_preference
   "calendar": {
     "enabled": true,
     "localJsonFiles": [
-      "case/demo_calendar.json"
+      "path/to/your_calendar.json"
     ],
     "icsFiles": [],
     "icsUrls": [],
@@ -248,13 +248,13 @@ nanobot memory list --type travel_preference
 查看日程：
 
 ```powershell
-nanobot calendar list --source local --days 7
+copala calendar list --source local --days 7
 ```
 
 写入 RAG：
 
 ```powershell
-nanobot calendar ingest --source local
+copala calendar ingest --source local
 ```
 
 ## 飞书私人日历配置
@@ -325,12 +325,12 @@ http://localhost:18790/feishu/oauth/callback
 
 ### 本地授权流程
 
-先确保没有运行占用 `18790` 端口的 `nanobot gateway`。
+先确保没有运行占用 `18790` 端口的 `copala gateway`。
 
 运行：
 
 ```powershell
-nanobot calendar feishu-auth-login
+copala calendar feishu-auth-login
 ```
 
 命令会启动一个临时本地回调服务，并输出飞书授权链接。复制链接到浏览器打开，登录飞书并授权。
@@ -338,32 +338,32 @@ nanobot calendar feishu-auth-login
 授权成功后，用户 token 会保存到：
 
 ```text
-~/.nanobot/workspace/calendar/feishu_user_token.json
+~/.copala/workspace/calendar/feishu_user_token.json
 ```
 
 测试读取私人日历：
 
 ```powershell
-nanobot calendar list --source feishu --days 7
+copala calendar list --source feishu --days 7
 ```
 
 写入 RAG：
 
 ```powershell
-nanobot calendar ingest --source feishu
-nanobot memory search "Feishu calendar"
+copala calendar ingest --source feishu
+copala memory search "Feishu calendar"
 ```
 
 如果浏览器显示 `localhost 拒绝连接`，说明没有启动本地回调服务。请先运行：
 
 ```powershell
-nanobot calendar feishu-auth-login
+copala calendar feishu-auth-login
 ```
 
 如果失败页面地址栏中已经有 `code=...`，可以复制 code 手动换 token：
 
 ```powershell
-nanobot calendar feishu-auth-code YOUR_CODE
+copala calendar feishu-auth-code YOUR_CODE
 ```
 
 ## 飞书企业/机器人日历模式
@@ -389,8 +389,8 @@ nanobot calendar feishu-auth-code YOUR_CODE
 诊断命令：
 
 ```powershell
-nanobot calendar calendars --platform feishu
-nanobot calendar list --source feishu --days 7
+copala calendar calendars --platform feishu
+copala calendar list --source feishu --days 7
 ```
 
 当前演示主线是“飞书私人日历 OAuth”。钉钉消息通道可以继续保留，但钉钉日历 Provider 已从日历运行路径中移除，避免干扰认证诊断。
@@ -467,8 +467,8 @@ calendar(action="confirm")
 查看生活事件：
 
 ```powershell
-nanobot life-events list
-nanobot life-events reprocess-email --limit 20
+copala life-events list
+copala life-events reprocess-email --limit 20
 ```
 
 gateway 启动后会自动注册生活事件邮件巡检和飞书日历巡检 cron。日历巡检会读取未来 24 小时日程，并在日程即将开始前主动提醒。
@@ -515,7 +515,7 @@ Agent 可通过邮件工具读取邮件摘要，RAG 自动抽取长期记忆。�
 规划工具位于：
 
 ```text
-nanobot/agent/tools/planning.py
+copala/agent/tools/planning.py
 ```
 
 支持：
@@ -551,15 +551,15 @@ shopping_plan(...)
 相关工具：
 
 ```text
-nanobot/agent/tools/learned.py
+copala/agent/tools/learned.py
 ```
 
 保存位置：
 
 ```text
-~/.nanobot/workspace/learned/scripts/<category>/<script>.py
-~/.nanobot/workspace/skills/learned-<skill-name>/SKILL.md
-~/.nanobot/workspace/learned/manifest.json
+~/.copala/workspace/learned/scripts/<category>/<script>.py
+~/.copala/workspace/skills/learned-<skill-name>/SKILL.md
+~/.copala/workspace/learned/manifest.json
 ```
 
 简历描述示例：
@@ -572,35 +572,35 @@ nanobot/agent/tools/learned.py
 
 ```powershell
 # 初始化
-nanobot onboard
+copala onboard
 
 # CLI 对话
-nanobot agent -m "你好"
+copala agent -m "你好"
 
 # 启动 QQ/邮件/飞书等通道
-nanobot gateway
+copala gateway
 
 # RAG 记忆
-nanobot memory reindex
-nanobot memory search "旅行偏好"
-nanobot memory list --type travel_preference
+copala memory reindex
+copala memory search "旅行偏好"
+copala memory list --type travel_preference
 
 # 日历
-nanobot calendar list --days 7
-nanobot calendar list --source local --days 7
-nanobot calendar list --source feishu --days 7
-nanobot calendar ingest --source feishu
+copala calendar list --days 7
+copala calendar list --source local --days 7
+copala calendar list --source feishu --days 7
+copala calendar ingest --source feishu
 
 # 生活事件
-nanobot life-events list
-nanobot life-events reprocess-email --limit 20
+copala life-events list
+copala life-events reprocess-email --limit 20
 
 # 飞书 OAuth
-nanobot calendar feishu-auth-login
-nanobot calendar feishu-auth-code YOUR_CODE
+copala calendar feishu-auth-login
+copala calendar feishu-auth-code YOUR_CODE
 
 # 企业日历诊断
-nanobot calendar calendars --platform feishu
+copala calendar calendars --platform feishu
 ```
 
 ## 测试
@@ -626,7 +626,7 @@ PytestConfigWarning: Unknown config option: asyncio_mode
 说明接口调用成功，但当前时间范围内没有可读取事件。可以拉长时间：
 
 ```powershell
-nanobot calendar list --source feishu --days 30
+copala calendar list --source feishu --days 30
 ```
 
 ### `localhost 拒绝连接`
@@ -634,7 +634,7 @@ nanobot calendar list --source feishu --days 30
 说明浏览器 OAuth 回调时本地没有服务监听。请运行：
 
 ```powershell
-nanobot calendar feishu-auth-login
+copala calendar feishu-auth-login
 ```
 
 ### `app bot_id not found`
@@ -656,13 +656,13 @@ nanobot calendar feishu-auth-login
 先在 PowerShell 验证默认配置：
 
 ```powershell
-nanobot calendar list --source feishu --days 1
+copala calendar list --source feishu --days 1
 ```
 
 如果 CLI 能查到，请重启网关：
 
 ```powershell
-nanobot gateway --config C:\Users\Weichu\.nanobot\config.json --workspace C:\Users\Weichu\.nanobot\workspace
+copala gateway --config C:\Users\Weichu\.copala\config.json --workspace C:\Users\Weichu\.copala\workspace
 ```
 
 也可以在 QQ 中让机器人检查日历认证状态：
@@ -676,24 +676,24 @@ QQ 里的“查看今天的日程 / 查看我今天的飞书日程 / 检查日�
 CLI 中也可以直接检查：
 
 ```powershell
-nanobot calendar status
+copala calendar status
 ```
 
 ### QQ WebSocket 断开或心跳报错
 
 常见于网络波动、网关重连或连接关闭时写心跳。通常不是业务代码错误，观察是否能自动重连即可。
 
-## 与上游 nanobot 的关系
+## 与上游 copala 的关系
 
-本项目基于 nanobot 扩展，保留了轻量 Agent 框架、多通道消息、工具调用、会话管理等基础能力。
+本项目基于 copala 扩展，保留了轻量 Agent 框架、多通道消息、工具调用、会话管理等基础能力。
 
 ## 主动规划型日程助理
 
 主动规划工具位于：
 
 ```text
-nanobot/planning/daily.py
-nanobot/agent/tools/daily_planning.py
+copala/planning/daily.py
+copala/agent/tools/daily_planning.py
 ```
 
 支持：
@@ -786,9 +786,9 @@ D:\Environment\anaconda3\envs\py311\python.exe -m pytest tests\test_daily_planni
 测试命令：
 
 ```powershell
-nanobot smart-reminders status
-nanobot smart-reminders check --days 2
-nanobot smart-reminders patrol
+copala smart-reminders status
+copala smart-reminders check --days 2
+copala smart-reminders patrol
 ```
 
 聊天测试：

@@ -3,8 +3,8 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from types import SimpleNamespace
 
-from nanobot.calendar.service import CalendarEvent
-from nanobot.smart_reminders.service import SmartReminderService
+from copala.calendar.service import CalendarEvent
+from copala.smart_reminders.service import SmartReminderService
 
 
 class FakeAmap:

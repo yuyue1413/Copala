@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 
-from nanobot.agent.loop import AgentLoop
+from copala.agent.loop import AgentLoop
 
 
 def test_readonly_calendar_query_intent() -> None:

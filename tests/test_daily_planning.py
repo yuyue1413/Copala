@@ -4,9 +4,9 @@ import asyncio
 from datetime import date, datetime
 from types import SimpleNamespace
 
-from nanobot.agent.tools.daily_planning import DailyPlanningTool
-from nanobot.calendar.service import CalendarEvent
-from nanobot.planning.daily import DailyPlanningService
+from copala.agent.tools.daily_planning import DailyPlanningTool
+from copala.calendar.service import CalendarEvent
+from copala.planning.daily import DailyPlanningService
 
 
 class FakeCalendar:

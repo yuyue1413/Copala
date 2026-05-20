@@ -5,7 +5,7 @@ from datetime import datetime
 
 import httpx
 
-from nanobot.calendar.providers.feishu import FeishuCalendarProvider
+from copala.calendar.providers.feishu import FeishuCalendarProvider
 
 
 def test_feishu_primary_calendar_is_resolved_before_listing_events() -> None:

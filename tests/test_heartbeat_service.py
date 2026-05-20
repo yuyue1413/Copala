@@ -2,8 +2,8 @@ import asyncio
 
 import pytest
 
-from nanobot.heartbeat.service import HeartbeatService
-from nanobot.providers.base import LLMResponse, ToolCallRequest
+from copala.heartbeat.service import HeartbeatService
+from copala.providers.base import LLMResponse, ToolCallRequest
 
 
 class DummyProvider:

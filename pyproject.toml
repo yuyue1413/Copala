@@ -1,11 +1,11 @@
 [project]
-name = "nanobot-ai"
+name = "copala-ai"
 version = "0.1.4.post4"
 description = "A lightweight personal AI assistant framework"
 requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [
-    {name = "nanobot contributors"}
+    {name = "copala contributors"}
 ]
 keywords = ["ai", "agent", "chatbot"]
 classifiers = [
@@ -62,30 +62,30 @@ dev = [
 ]
 
 [project.scripts]
-nanobot = "nanobot.cli.commands:app"
+copala = "copala.cli.commands:app"
 
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "editables"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["nanobot"]
+packages = ["copala"]
 
 [tool.hatch.build.targets.wheel.sources]
-"nanobot" = "nanobot"
+"copala" = "copala"
 
 # Include non-Python files in skills and templates
 [tool.hatch.build]
 include = [
-    "nanobot/**/*.py",
-    "nanobot/templates/**/*.md",
-    "nanobot/skills/**/*.md",
-    "nanobot/skills/**/*.sh",
+    "copala/**/*.py",
+    "copala/templates/**/*.md",
+    "copala/skills/**/*.md",
+    "copala/skills/**/*.sh",
 ]
 
 [tool.hatch.build.targets.sdist]
 include = [
-    "nanobot/",
+    "copala/",
     "README.md",
     "LICENSE",
 ]

@@ -2,10 +2,10 @@ from types import SimpleNamespace
 
 import pytest
 
-from nanobot.bus.events import OutboundMessage
-from nanobot.bus.queue import MessageBus
-from nanobot.channels.telegram import TelegramChannel
-from nanobot.config.schema import TelegramConfig
+from copala.bus.events import OutboundMessage
+from copala.bus.queue import MessageBus
+from copala.channels.telegram import TelegramChannel
+from copala.config.schema import TelegramConfig
 
 
 class _FakeHTTPXRequest:
@@ -29,7 +29,7 @@ class _FakeBot:
         self.sent_messages: list[dict] = []
 
     async def get_me(self):
-        return SimpleNamespace(username="nanobot_test")
+        return SimpleNamespace(username="copala_test")
 
     async def set_my_commands(self, commands) -> None:
         self.commands = commands
@@ -100,9 +100,9 @@ async def test_start_uses_request_proxy_without_builder_proxy(monkeypatch) -> No
     app = _FakeApp(lambda: setattr(channel, "_running", False))
     builder = _FakeBuilder(app)
 
-    monkeypatch.setattr("nanobot.channels.telegram.HTTPXRequest", _FakeHTTPXRequest)
+    monkeypatch.setattr("copala.channels.telegram.HTTPXRequest", _FakeHTTPXRequest)
     monkeypatch.setattr(
-        "nanobot.channels.telegram.Application",
+        "copala.channels.telegram.Application",
         SimpleNamespace(builder=lambda: builder),
     )
 

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import asyncio
 
-from nanobot.agent.tools.web import WebSearchTool
+from copala.agent.tools.web import WebSearchTool
 
 
 class FakeResponse:

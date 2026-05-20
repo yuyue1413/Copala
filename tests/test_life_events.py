@@ -5,9 +5,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from types import SimpleNamespace
 
-from nanobot.bus.events import OutboundMessage
-from nanobot.calendar.service import CalendarEvent
-from nanobot.life_events.service import LifeEventManager
+from copala.bus.events import OutboundMessage
+from copala.calendar.service import CalendarEvent
+from copala.life_events.service import LifeEventManager
 
 
 class FakeProvider:

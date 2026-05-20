@@ -2,10 +2,10 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from nanobot.agent.loop import AgentLoop
-from nanobot.agent.tools.calendar import CalendarTool
-from nanobot.calendar.formatting import format_calendar_events
-from nanobot.calendar.service import CalendarEvent
+from copala.agent.loop import AgentLoop
+from copala.agent.tools.calendar import CalendarTool
+from copala.calendar.formatting import format_calendar_events
+from copala.calendar.service import CalendarEvent
 
 
 def _event() -> CalendarEvent:

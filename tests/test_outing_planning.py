@@ -4,10 +4,10 @@ import asyncio
 from datetime import date, datetime
 from types import SimpleNamespace
 
-from nanobot.agent.tools.outing_planning import OutingPlanningTool
-from nanobot.calendar.service import CalendarEvent
-from nanobot.context_awareness.amap import AmapRouteUnavailable
-from nanobot.planning.outing import OutingPlanningService
+from copala.agent.tools.outing_planning import OutingPlanningTool
+from copala.calendar.service import CalendarEvent
+from copala.context_awareness.amap import AmapRouteUnavailable
+from copala.planning.outing import OutingPlanningService
 
 
 class FakeCalendar:

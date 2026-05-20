@@ -3,8 +3,8 @@ from __future__ import annotations
 import asyncio
 from datetime import date, timedelta
 
-from nanobot.providers.base import LLMProvider, LLMResponse
-from nanobot.providers.fallback_provider import FallbackLLMProvider
+from copala.providers.base import LLMProvider, LLMResponse
+from copala.providers.fallback_provider import FallbackLLMProvider
 
 
 class DummyProvider(LLMProvider):

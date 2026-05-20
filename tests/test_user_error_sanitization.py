@@ -4,10 +4,10 @@ import asyncio
 from pathlib import Path
 from unittest.mock import MagicMock
 
-from nanobot.agent.loop import AgentLoop
-from nanobot.bus.events import InboundMessage
-from nanobot.bus.queue import MessageBus
-from nanobot.providers.base import LLMResponse
+from copala.agent.loop import AgentLoop
+from copala.bus.events import InboundMessage
+from copala.bus.queue import MessageBus
+from copala.providers.base import LLMResponse
 
 
 def test_llm_quota_error_is_not_sent_to_user(tmp_path: Path) -> None:

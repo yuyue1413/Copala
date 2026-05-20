@@ -1,8 +1,8 @@
 import asyncio
 from pathlib import Path
 
-from nanobot.agent.skills import SkillsLoader
-from nanobot.agent.tools.learned import LearnSkillTool
+from copala.agent.skills import SkillsLoader
+from copala.agent.tools.learned import LearnSkillTool
 
 
 def test_learn_skill_saves_script_and_workspace_skill(tmp_path: Path) -> None:

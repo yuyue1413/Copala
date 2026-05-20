@@ -5,11 +5,11 @@ from unittest.mock import AsyncMock, MagicMock
 
 import pytest
 
-from nanobot.agent.loop import AgentLoop
-from nanobot.agent.tools.message import MessageTool
-from nanobot.bus.events import InboundMessage, OutboundMessage
-from nanobot.bus.queue import MessageBus
-from nanobot.providers.base import LLMResponse, ToolCallRequest
+from copala.agent.loop import AgentLoop
+from copala.agent.tools.message import MessageTool
+from copala.bus.events import InboundMessage, OutboundMessage
+from copala.bus.queue import MessageBus
+from copala.providers.base import LLMResponse, ToolCallRequest
 
 
 def _make_loop(tmp_path: Path) -> AgentLoop:

@@ -1,8 +1,8 @@
 from pathlib import Path
 
-from nanobot.agent.context import ContextBuilder
-from nanobot.agent.memory_rag.schema import MemoryItem
-from nanobot.agent.memory_rag.store import MemoryRAGStore
+from copala.agent.context import ContextBuilder
+from copala.agent.memory_rag.schema import MemoryItem
+from copala.agent.memory_rag.store import MemoryRAGStore
 
 
 def test_memory_rag_retrieves_travel_preference(tmp_path: Path) -> None:
