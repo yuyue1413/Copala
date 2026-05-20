@@ -1,0 +1,18 @@
+[
+  {
+    "id": "demo-interview-prep",
+    "title": "RAG Agent 面试演示准备",
+    "start": "2026-05-18T09:30:00",
+    "end": "2026-05-18T10:30:00",
+    "location": "Home",
+    "description": "准备长期记忆、日程和旅行规划 demo"
+  },
+  {
+    "id": "demo-project-sync",
+    "title": "项目周会",
+    "start": "2026-05-18T14:00:00",
+    "end": "2026-05-18T15:00:00",
+    "location": "Online",
+    "description": "同步 Mybot RAG 实现进展"
+  }
+]
