@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "calendar-00",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-00",
+    "text": "今天有回复邮件和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-00",
+    "text": "帮我规划周末去杭州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-00",
+    "text": "检查一下今天天气会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-00",
+    "text": "2030-09-01 9:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-00",
+    "text": "解释一下Python装饰器，示例编号0",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-01",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-01",
+    "text": "明天有取快递和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-01",
+    "text": "帮我规划周末去苏州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-01",
+    "text": "检查一下明天下雨会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-01",
+    "text": "2030-09-02 10:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-01",
+    "text": "帮我写一段项目介绍，示例编号1",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-02",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-02",
+    "text": "本周有买药和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-02",
+    "text": "帮我规划周末去上海旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-02",
+    "text": "检查一下本周交通会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-02",
+    "text": "2030-09-03 11:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-02",
+    "text": "为什么天空是蓝色，示例编号2",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-03",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-03",
+    "text": "今天有项目会议和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-03",
+    "text": "帮我规划周末去南京旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-03",
+    "text": "检查一下今天堵车会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-03",
+    "text": "2030-09-04 12:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-03",
+    "text": "总结这段文字的观点，示例编号3",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-04",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-04",
+    "text": "明天有健身和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-04",
+    "text": "帮我规划周末去成都旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-04",
+    "text": "检查一下明天日程冲突会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-04",
+    "text": "2030-09-05 13:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-04",
+    "text": "给我三个产品名称，示例编号4",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-05",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-05",
+    "text": "本周有回复邮件和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-05",
+    "text": "帮我规划周末去杭州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-05",
+    "text": "检查一下本周天气会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-05",
+    "text": "2030-09-06 14:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-05",
+    "text": "如何学习异步编程，示例编号5",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-06",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-06",
+    "text": "今天有取快递和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-06",
+    "text": "帮我规划周末去苏州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-06",
+    "text": "检查一下今天下雨会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-06",
+    "text": "2030-09-07 15:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-06",
+    "text": "比较REST和GraphQL，示例编号6",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-07",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-07",
+    "text": "明天有买药和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-07",
+    "text": "帮我规划周末去上海旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-07",
+    "text": "检查一下明天交通会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-07",
+    "text": "2030-09-08 16:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-07",
+    "text": "写一个正则表达式，示例编号7",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-08",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-08",
+    "text": "本周有项目会议和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-08",
+    "text": "帮我规划周末去南京旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-08",
+    "text": "检查一下本周堵车会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-08",
+    "text": "2030-09-09 9:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-08",
+    "text": "介绍一下SQLite，示例编号8",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-09",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-09",
+    "text": "今天有健身和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-09",
+    "text": "帮我规划周末去成都旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-09",
+    "text": "检查一下今天日程冲突会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-09",
+    "text": "2030-09-10 10:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-09",
+    "text": "给代码补充注释，示例编号9",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-10",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-10",
+    "text": "明天有回复邮件和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-10",
+    "text": "帮我规划周末去杭州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-10",
+    "text": "检查一下明天天气会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-10",
+    "text": "2030-09-11 11:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-10",
+    "text": "解释一下Python装饰器，示例编号10",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-11",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-11",
+    "text": "本周有取快递和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-11",
+    "text": "帮我规划周末去苏州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-11",
+    "text": "检查一下本周下雨会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-11",
+    "text": "2030-09-12 12:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-11",
+    "text": "帮我写一段项目介绍，示例编号11",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-12",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-12",
+    "text": "今天有买药和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-12",
+    "text": "帮我规划周末去上海旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-12",
+    "text": "检查一下今天交通会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-12",
+    "text": "2030-09-13 13:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-12",
+    "text": "为什么天空是蓝色，示例编号12",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-13",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-13",
+    "text": "明天有项目会议和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-13",
+    "text": "帮我规划周末去南京旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-13",
+    "text": "检查一下明天堵车会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-13",
+    "text": "2030-09-14 14:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-13",
+    "text": "总结这段文字的观点，示例编号13",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-14",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-14",
+    "text": "本周有健身和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-14",
+    "text": "帮我规划周末去成都旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-14",
+    "text": "检查一下本周日程冲突会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-14",
+    "text": "2030-09-15 15:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-14",
+    "text": "给我三个产品名称，示例编号14",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-15",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-15",
+    "text": "今天有回复邮件和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-15",
+    "text": "帮我规划周末去杭州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-15",
+    "text": "检查一下今天天气会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-15",
+    "text": "2030-09-16 16:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-15",
+    "text": "如何学习异步编程，示例编号15",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-16",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-16",
+    "text": "明天有取快递和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-16",
+    "text": "帮我规划周末去苏州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-16",
+    "text": "检查一下明天下雨会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-16",
+    "text": "2030-09-17 9:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-16",
+    "text": "比较REST和GraphQL，示例编号16",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-17",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-17",
+    "text": "本周有买药和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-17",
+    "text": "帮我规划周末去上海旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-17",
+    "text": "检查一下本周交通会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-17",
+    "text": "2030-09-18 10:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-17",
+    "text": "写一个正则表达式，示例编号17",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-18",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-18",
+    "text": "今天有项目会议和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-18",
+    "text": "帮我规划周末去南京旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-18",
+    "text": "检查一下今天堵车会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-18",
+    "text": "2030-09-19 11:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-18",
+    "text": "介绍一下SQLite，示例编号18",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-19",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "dev"
+  },
+  {
+    "id": "daily-19",
+    "text": "明天有健身和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "dev"
+  },
+  {
+    "id": "outing-19",
+    "text": "帮我规划周末去成都旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "dev"
+  },
+  {
+    "id": "smart-19",
+    "text": "检查一下明天日程冲突会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "dev"
+  },
+  {
+    "id": "life-19",
+    "text": "2030-09-20 12:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "dev"
+  },
+  {
+    "id": "general-19",
+    "text": "给代码补充注释，示例编号19",
+    "label": "llm_slow",
+    "split": "dev"
+  },
+  {
+    "id": "calendar-20",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-20",
+    "text": "本周有回复邮件和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-20",
+    "text": "帮我规划周末去杭州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-20",
+    "text": "检查一下本周天气会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-20",
+    "text": "2030-09-01 13:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-20",
+    "text": "解释一下Python装饰器，示例编号20",
+    "label": "llm_slow",
+    "split": "test"
+  },
+  {
+    "id": "calendar-21",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-21",
+    "text": "今天有取快递和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-21",
+    "text": "帮我规划周末去苏州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-21",
+    "text": "检查一下今天下雨会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-21",
+    "text": "2030-09-02 14:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-21",
+    "text": "帮我写一段项目介绍，示例编号21",
+    "label": "llm_slow",
+    "split": "test"
+  },
+  {
+    "id": "calendar-22",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-22",
+    "text": "明天有买药和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-22",
+    "text": "帮我规划周末去上海旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-22",
+    "text": "检查一下明天交通会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-22",
+    "text": "2030-09-03 15:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-22",
+    "text": "为什么天空是蓝色，示例编号22",
+    "label": "llm_slow",
+    "split": "test"
+  },
+  {
+    "id": "calendar-23",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-23",
+    "text": "本周有项目会议和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-23",
+    "text": "帮我规划周末去南京旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-23",
+    "text": "检查一下本周堵车会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-23",
+    "text": "2030-09-04 16:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-23",
+    "text": "总结这段文字的观点，示例编号23",
+    "label": "llm_slow",
+    "split": "test"
+  },
+  {
+    "id": "calendar-24",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-24",
+    "text": "今天有健身和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-24",
+    "text": "帮我规划周末去成都旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-24",
+    "text": "检查一下今天日程冲突会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-24",
+    "text": "2030-09-05 9:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-24",
+    "text": "给我三个产品名称，示例编号24",
+    "label": "llm_slow",
+    "split": "test"
+  },
+  {
+    "id": "calendar-25",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-25",
+    "text": "明天有回复邮件和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-25",
+    "text": "帮我规划周末去杭州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-25",
+    "text": "检查一下明天天气会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-25",
+    "text": "2030-09-06 10:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-25",
+    "text": "如何学习异步编程，示例编号25",
+    "label": "llm_slow",
+    "split": "test"
+  },
+  {
+    "id": "calendar-26",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-26",
+    "text": "本周有取快递和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-26",
+    "text": "帮我规划周末去苏州旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-26",
+    "text": "检查一下本周下雨会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-26",
+    "text": "2030-09-07 11:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-26",
+    "text": "比较REST和GraphQL，示例编号26",
+    "label": "llm_slow",
+    "split": "test"
+  },
+  {
+    "id": "calendar-27",
+    "text": "请帮我查看今天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-27",
+    "text": "今天有买药和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-27",
+    "text": "帮我规划周末去上海旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-27",
+    "text": "检查一下今天交通会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-27",
+    "text": "2030-09-08 12:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-27",
+    "text": "写一个正则表达式，示例编号27",
+    "label": "llm_slow",
+    "split": "test"
+  },
+  {
+    "id": "calendar-28",
+    "text": "请帮我查看明天的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-28",
+    "text": "明天有项目会议和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-28",
+    "text": "帮我规划周末去南京旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-28",
+    "text": "检查一下明天堵车会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-28",
+    "text": "2030-09-09 13:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-28",
+    "text": "介绍一下SQLite，示例编号28",
+    "label": "llm_slow",
+    "split": "test"
+  },
+  {
+    "id": "calendar-29",
+    "text": "请帮我查看本周的飞书日程有哪些？",
+    "label": "calendar_query",
+    "split": "test"
+  },
+  {
+    "id": "daily-29",
+    "text": "本周有健身和会议，请帮我重新规划今天的安排",
+    "label": "daily_plan",
+    "split": "test"
+  },
+  {
+    "id": "outing-29",
+    "text": "帮我规划周末去成都旅行的轻松行程",
+    "label": "outing_plan",
+    "split": "test"
+  },
+  {
+    "id": "smart-29",
+    "text": "检查一下本周日程冲突会不会影响我的安排",
+    "label": "smart_reminder",
+    "split": "test"
+  },
+  {
+    "id": "life-29",
+    "text": "2030-09-10 14:00 项目同步会议，地点：飞书会议",
+    "label": "life_event",
+    "split": "test"
+  },
+  {
+    "id": "general-29",
+    "text": "给代码补充注释，示例编号29",
+    "label": "llm_slow",
+    "split": "test"
+  }
+]

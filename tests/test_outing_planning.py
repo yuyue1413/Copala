@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import asyncio
-from datetime import date, datetime
+from datetime import datetime
 from types import SimpleNamespace
 
 from copala.agent.tools.outing_planning import OutingPlanningTool

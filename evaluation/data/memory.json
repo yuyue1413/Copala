@@ -1,0 +1,3326 @@
+{
+  "memories": [
+    {
+      "id": "conversation-000",
+      "type": "preference",
+      "text": "用户在第1次对话中表示，去杭州时偏好轻松慢游，餐饮优先粤菜，不喜欢行程排得过满。",
+      "summary": "杭州旅行偏好：轻松慢游、粤菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "杭州",
+        "轻松慢游",
+        "粤菜"
+      ]
+    },
+    {
+      "id": "conversation-001",
+      "type": "preference",
+      "text": "用户在第2次对话中表示，去苏州时偏好博物馆，餐饮优先海鲜，不喜欢行程排得过满。",
+      "summary": "苏州旅行偏好：博物馆、海鲜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "苏州",
+        "博物馆",
+        "海鲜"
+      ]
+    },
+    {
+      "id": "conversation-002",
+      "type": "preference",
+      "text": "用户在第3次对话中表示，去上海时偏好摄影，餐饮优先日料，不喜欢行程排得过满。",
+      "summary": "上海旅行偏好：摄影、日料",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "上海",
+        "摄影",
+        "日料"
+      ]
+    },
+    {
+      "id": "conversation-003",
+      "type": "preference",
+      "text": "用户在第4次对话中表示，去南京时偏好城市漫步，餐饮优先本帮菜，不喜欢行程排得过满。",
+      "summary": "南京旅行偏好：城市漫步、本帮菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "南京",
+        "城市漫步",
+        "本帮菜"
+      ]
+    },
+    {
+      "id": "conversation-004",
+      "type": "preference",
+      "text": "用户在第5次对话中表示，去成都时偏好亲子活动，餐饮优先面食，不喜欢行程排得过满。",
+      "summary": "成都旅行偏好：亲子活动、面食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "成都",
+        "亲子活动",
+        "面食"
+      ]
+    },
+    {
+      "id": "conversation-005",
+      "type": "preference",
+      "text": "用户在第6次对话中表示，去广州时偏好短途徒步，餐饮优先川菜，不喜欢行程排得过满。",
+      "summary": "广州旅行偏好：短途徒步、川菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "广州",
+        "短途徒步",
+        "川菜"
+      ]
+    },
+    {
+      "id": "conversation-006",
+      "type": "preference",
+      "text": "用户在第7次对话中表示，去深圳时偏好自然风景，餐饮优先火锅，不喜欢行程排得过满。",
+      "summary": "深圳旅行偏好：自然风景、火锅",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "深圳",
+        "自然风景",
+        "火锅"
+      ]
+    },
+    {
+      "id": "conversation-007",
+      "type": "preference",
+      "text": "用户在第8次对话中表示，去北京时偏好美食探店，餐饮优先素食，不喜欢行程排得过满。",
+      "summary": "北京旅行偏好：美食探店、素食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "北京",
+        "美食探店",
+        "素食"
+      ]
+    },
+    {
+      "id": "conversation-008",
+      "type": "preference",
+      "text": "用户在第9次对话中表示，去杭州时偏好轻松慢游，餐饮优先粤菜，不喜欢行程排得过满。",
+      "summary": "杭州旅行偏好：轻松慢游、粤菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "杭州",
+        "轻松慢游",
+        "粤菜"
+      ]
+    },
+    {
+      "id": "conversation-009",
+      "type": "preference",
+      "text": "用户在第10次对话中表示，去苏州时偏好博物馆，餐饮优先海鲜，不喜欢行程排得过满。",
+      "summary": "苏州旅行偏好：博物馆、海鲜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "苏州",
+        "博物馆",
+        "海鲜"
+      ]
+    },
+    {
+      "id": "conversation-010",
+      "type": "preference",
+      "text": "用户在第11次对话中表示，去上海时偏好摄影，餐饮优先日料，不喜欢行程排得过满。",
+      "summary": "上海旅行偏好：摄影、日料",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "上海",
+        "摄影",
+        "日料"
+      ]
+    },
+    {
+      "id": "conversation-011",
+      "type": "preference",
+      "text": "用户在第12次对话中表示，去南京时偏好城市漫步，餐饮优先本帮菜，不喜欢行程排得过满。",
+      "summary": "南京旅行偏好：城市漫步、本帮菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "南京",
+        "城市漫步",
+        "本帮菜"
+      ]
+    },
+    {
+      "id": "conversation-012",
+      "type": "preference",
+      "text": "用户在第13次对话中表示，去成都时偏好亲子活动，餐饮优先面食，不喜欢行程排得过满。",
+      "summary": "成都旅行偏好：亲子活动、面食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "成都",
+        "亲子活动",
+        "面食"
+      ]
+    },
+    {
+      "id": "conversation-013",
+      "type": "preference",
+      "text": "用户在第14次对话中表示，去广州时偏好短途徒步，餐饮优先川菜，不喜欢行程排得过满。",
+      "summary": "广州旅行偏好：短途徒步、川菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "广州",
+        "短途徒步",
+        "川菜"
+      ]
+    },
+    {
+      "id": "conversation-014",
+      "type": "preference",
+      "text": "用户在第15次对话中表示，去深圳时偏好自然风景，餐饮优先火锅，不喜欢行程排得过满。",
+      "summary": "深圳旅行偏好：自然风景、火锅",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "深圳",
+        "自然风景",
+        "火锅"
+      ]
+    },
+    {
+      "id": "conversation-015",
+      "type": "preference",
+      "text": "用户在第16次对话中表示，去北京时偏好美食探店，餐饮优先素食，不喜欢行程排得过满。",
+      "summary": "北京旅行偏好：美食探店、素食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "北京",
+        "美食探店",
+        "素食"
+      ]
+    },
+    {
+      "id": "conversation-016",
+      "type": "preference",
+      "text": "用户在第17次对话中表示，去杭州时偏好轻松慢游，餐饮优先粤菜，不喜欢行程排得过满。",
+      "summary": "杭州旅行偏好：轻松慢游、粤菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "杭州",
+        "轻松慢游",
+        "粤菜"
+      ]
+    },
+    {
+      "id": "conversation-017",
+      "type": "preference",
+      "text": "用户在第18次对话中表示，去苏州时偏好博物馆，餐饮优先海鲜，不喜欢行程排得过满。",
+      "summary": "苏州旅行偏好：博物馆、海鲜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "苏州",
+        "博物馆",
+        "海鲜"
+      ]
+    },
+    {
+      "id": "conversation-018",
+      "type": "preference",
+      "text": "用户在第19次对话中表示，去上海时偏好摄影，餐饮优先日料，不喜欢行程排得过满。",
+      "summary": "上海旅行偏好：摄影、日料",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "上海",
+        "摄影",
+        "日料"
+      ]
+    },
+    {
+      "id": "conversation-019",
+      "type": "preference",
+      "text": "用户在第20次对话中表示，去南京时偏好城市漫步，餐饮优先本帮菜，不喜欢行程排得过满。",
+      "summary": "南京旅行偏好：城市漫步、本帮菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "南京",
+        "城市漫步",
+        "本帮菜"
+      ]
+    },
+    {
+      "id": "conversation-020",
+      "type": "preference",
+      "text": "用户在第21次对话中表示，去成都时偏好亲子活动，餐饮优先面食，不喜欢行程排得过满。",
+      "summary": "成都旅行偏好：亲子活动、面食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "成都",
+        "亲子活动",
+        "面食"
+      ]
+    },
+    {
+      "id": "conversation-021",
+      "type": "preference",
+      "text": "用户在第22次对话中表示，去广州时偏好短途徒步，餐饮优先川菜，不喜欢行程排得过满。",
+      "summary": "广州旅行偏好：短途徒步、川菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "广州",
+        "短途徒步",
+        "川菜"
+      ]
+    },
+    {
+      "id": "conversation-022",
+      "type": "preference",
+      "text": "用户在第23次对话中表示，去深圳时偏好自然风景，餐饮优先火锅，不喜欢行程排得过满。",
+      "summary": "深圳旅行偏好：自然风景、火锅",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "深圳",
+        "自然风景",
+        "火锅"
+      ]
+    },
+    {
+      "id": "conversation-023",
+      "type": "preference",
+      "text": "用户在第24次对话中表示，去北京时偏好美食探店，餐饮优先素食，不喜欢行程排得过满。",
+      "summary": "北京旅行偏好：美食探店、素食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "北京",
+        "美食探店",
+        "素食"
+      ]
+    },
+    {
+      "id": "conversation-024",
+      "type": "preference",
+      "text": "用户在第25次对话中表示，去杭州时偏好轻松慢游，餐饮优先粤菜，不喜欢行程排得过满。",
+      "summary": "杭州旅行偏好：轻松慢游、粤菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "杭州",
+        "轻松慢游",
+        "粤菜"
+      ]
+    },
+    {
+      "id": "conversation-025",
+      "type": "preference",
+      "text": "用户在第26次对话中表示，去苏州时偏好博物馆，餐饮优先海鲜，不喜欢行程排得过满。",
+      "summary": "苏州旅行偏好：博物馆、海鲜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "苏州",
+        "博物馆",
+        "海鲜"
+      ]
+    },
+    {
+      "id": "conversation-026",
+      "type": "preference",
+      "text": "用户在第27次对话中表示，去上海时偏好摄影，餐饮优先日料，不喜欢行程排得过满。",
+      "summary": "上海旅行偏好：摄影、日料",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "上海",
+        "摄影",
+        "日料"
+      ]
+    },
+    {
+      "id": "conversation-027",
+      "type": "preference",
+      "text": "用户在第28次对话中表示，去南京时偏好城市漫步，餐饮优先本帮菜，不喜欢行程排得过满。",
+      "summary": "南京旅行偏好：城市漫步、本帮菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "南京",
+        "城市漫步",
+        "本帮菜"
+      ]
+    },
+    {
+      "id": "conversation-028",
+      "type": "preference",
+      "text": "用户在第29次对话中表示，去成都时偏好亲子活动，餐饮优先面食，不喜欢行程排得过满。",
+      "summary": "成都旅行偏好：亲子活动、面食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "成都",
+        "亲子活动",
+        "面食"
+      ]
+    },
+    {
+      "id": "conversation-029",
+      "type": "preference",
+      "text": "用户在第30次对话中表示，去广州时偏好短途徒步，餐饮优先川菜，不喜欢行程排得过满。",
+      "summary": "广州旅行偏好：短途徒步、川菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "广州",
+        "短途徒步",
+        "川菜"
+      ]
+    },
+    {
+      "id": "conversation-030",
+      "type": "preference",
+      "text": "用户在第31次对话中表示，去深圳时偏好自然风景，餐饮优先火锅，不喜欢行程排得过满。",
+      "summary": "深圳旅行偏好：自然风景、火锅",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "深圳",
+        "自然风景",
+        "火锅"
+      ]
+    },
+    {
+      "id": "conversation-031",
+      "type": "preference",
+      "text": "用户在第32次对话中表示，去北京时偏好美食探店，餐饮优先素食，不喜欢行程排得过满。",
+      "summary": "北京旅行偏好：美食探店、素食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "北京",
+        "美食探店",
+        "素食"
+      ]
+    },
+    {
+      "id": "conversation-032",
+      "type": "preference",
+      "text": "用户在第33次对话中表示，去杭州时偏好轻松慢游，餐饮优先粤菜，不喜欢行程排得过满。",
+      "summary": "杭州旅行偏好：轻松慢游、粤菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "杭州",
+        "轻松慢游",
+        "粤菜"
+      ]
+    },
+    {
+      "id": "conversation-033",
+      "type": "preference",
+      "text": "用户在第34次对话中表示，去苏州时偏好博物馆，餐饮优先海鲜，不喜欢行程排得过满。",
+      "summary": "苏州旅行偏好：博物馆、海鲜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "苏州",
+        "博物馆",
+        "海鲜"
+      ]
+    },
+    {
+      "id": "conversation-034",
+      "type": "preference",
+      "text": "用户在第35次对话中表示，去上海时偏好摄影，餐饮优先日料，不喜欢行程排得过满。",
+      "summary": "上海旅行偏好：摄影、日料",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "上海",
+        "摄影",
+        "日料"
+      ]
+    },
+    {
+      "id": "conversation-035",
+      "type": "preference",
+      "text": "用户在第36次对话中表示，去南京时偏好城市漫步，餐饮优先本帮菜，不喜欢行程排得过满。",
+      "summary": "南京旅行偏好：城市漫步、本帮菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "南京",
+        "城市漫步",
+        "本帮菜"
+      ]
+    },
+    {
+      "id": "conversation-036",
+      "type": "preference",
+      "text": "用户在第37次对话中表示，去成都时偏好亲子活动，餐饮优先面食，不喜欢行程排得过满。",
+      "summary": "成都旅行偏好：亲子活动、面食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "成都",
+        "亲子活动",
+        "面食"
+      ]
+    },
+    {
+      "id": "conversation-037",
+      "type": "preference",
+      "text": "用户在第38次对话中表示，去广州时偏好短途徒步，餐饮优先川菜，不喜欢行程排得过满。",
+      "summary": "广州旅行偏好：短途徒步、川菜",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "广州",
+        "短途徒步",
+        "川菜"
+      ]
+    },
+    {
+      "id": "conversation-038",
+      "type": "preference",
+      "text": "用户在第39次对话中表示，去深圳时偏好自然风景，餐饮优先火锅，不喜欢行程排得过满。",
+      "summary": "深圳旅行偏好：自然风景、火锅",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "深圳",
+        "自然风景",
+        "火锅"
+      ]
+    },
+    {
+      "id": "conversation-039",
+      "type": "preference",
+      "text": "用户在第40次对话中表示，去北京时偏好美食探店，餐饮优先素食，不喜欢行程排得过满。",
+      "summary": "北京旅行偏好：美食探店、素食",
+      "source": "conversation",
+      "tags": [
+        "preference",
+        "travel",
+        "北京",
+        "美食探店",
+        "素食"
+      ]
+    },
+    {
+      "id": "email-000",
+      "type": "email_fact",
+      "text": "张明发送了星河项目邮件，要求在2030年6月10日前提交接口文档，联系人邮箱为user0@example.com。",
+      "summary": "星河项目接口文档截止日为6月10日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "星河",
+        "接口文档"
+      ]
+    },
+    {
+      "id": "email-001",
+      "type": "email_fact",
+      "text": "李岚发送了远航项目邮件，要求在2030年6月11日前提交风险表，联系人邮箱为user1@example.com。",
+      "summary": "远航项目风险表截止日为6月11日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "远航",
+        "风险表"
+      ]
+    },
+    {
+      "id": "email-002",
+      "type": "email_fact",
+      "text": "王航发送了北斗项目邮件，要求在2030年6月12日前提交需求评审稿，联系人邮箱为user2@example.com。",
+      "summary": "北斗项目需求评审稿截止日为6月12日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "北斗",
+        "需求评审稿"
+      ]
+    },
+    {
+      "id": "email-003",
+      "type": "email_fact",
+      "text": "陈雨发送了云帆项目邮件，要求在2030年6月13日前提交验收材料，联系人邮箱为user3@example.com。",
+      "summary": "云帆项目验收材料截止日为6月13日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "云帆",
+        "验收材料"
+      ]
+    },
+    {
+      "id": "email-004",
+      "type": "email_fact",
+      "text": "赵宁发送了灯塔项目邮件，要求在2030年6月14日前提交演示视频，联系人邮箱为user4@example.com。",
+      "summary": "灯塔项目演示视频截止日为6月14日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "灯塔",
+        "演示视频"
+      ]
+    },
+    {
+      "id": "email-005",
+      "type": "email_fact",
+      "text": "周琦发送了山海项目邮件，要求在2030年6月15日前提交测试报告，联系人邮箱为user5@example.com。",
+      "summary": "山海项目测试报告截止日为6月15日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "山海",
+        "测试报告"
+      ]
+    },
+    {
+      "id": "email-006",
+      "type": "email_fact",
+      "text": "吴桐发送了晨曦项目邮件，要求在2030年6月16日前提交周报，联系人邮箱为user6@example.com。",
+      "summary": "晨曦项目周报截止日为6月16日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "晨曦",
+        "周报"
+      ]
+    },
+    {
+      "id": "email-007",
+      "type": "email_fact",
+      "text": "孙悦发送了青鸟项目邮件，要求在2030年6月17日前提交部署清单，联系人邮箱为user7@example.com。",
+      "summary": "青鸟项目部署清单截止日为6月17日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "青鸟",
+        "部署清单"
+      ]
+    },
+    {
+      "id": "email-008",
+      "type": "email_fact",
+      "text": "张明发送了星河项目邮件，要求在2030年6月18日前提交接口文档，联系人邮箱为user8@example.com。",
+      "summary": "星河项目接口文档截止日为6月18日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "星河",
+        "接口文档"
+      ]
+    },
+    {
+      "id": "email-009",
+      "type": "email_fact",
+      "text": "李岚发送了远航项目邮件，要求在2030年6月19日前提交风险表，联系人邮箱为user9@example.com。",
+      "summary": "远航项目风险表截止日为6月19日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "远航",
+        "风险表"
+      ]
+    },
+    {
+      "id": "email-010",
+      "type": "email_fact",
+      "text": "王航发送了北斗项目邮件，要求在2030年6月20日前提交需求评审稿，联系人邮箱为user10@example.com。",
+      "summary": "北斗项目需求评审稿截止日为6月20日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "北斗",
+        "需求评审稿"
+      ]
+    },
+    {
+      "id": "email-011",
+      "type": "email_fact",
+      "text": "陈雨发送了云帆项目邮件，要求在2030年6月21日前提交验收材料，联系人邮箱为user11@example.com。",
+      "summary": "云帆项目验收材料截止日为6月21日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "云帆",
+        "验收材料"
+      ]
+    },
+    {
+      "id": "email-012",
+      "type": "email_fact",
+      "text": "赵宁发送了灯塔项目邮件，要求在2030年6月22日前提交演示视频，联系人邮箱为user12@example.com。",
+      "summary": "灯塔项目演示视频截止日为6月22日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "灯塔",
+        "演示视频"
+      ]
+    },
+    {
+      "id": "email-013",
+      "type": "email_fact",
+      "text": "周琦发送了山海项目邮件，要求在2030年6月23日前提交测试报告，联系人邮箱为user13@example.com。",
+      "summary": "山海项目测试报告截止日为6月23日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "山海",
+        "测试报告"
+      ]
+    },
+    {
+      "id": "email-014",
+      "type": "email_fact",
+      "text": "吴桐发送了晨曦项目邮件，要求在2030年6月24日前提交周报，联系人邮箱为user14@example.com。",
+      "summary": "晨曦项目周报截止日为6月24日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "晨曦",
+        "周报"
+      ]
+    },
+    {
+      "id": "email-015",
+      "type": "email_fact",
+      "text": "孙悦发送了青鸟项目邮件，要求在2030年6月25日前提交部署清单，联系人邮箱为user15@example.com。",
+      "summary": "青鸟项目部署清单截止日为6月25日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "青鸟",
+        "部署清单"
+      ]
+    },
+    {
+      "id": "email-016",
+      "type": "email_fact",
+      "text": "张明发送了星河项目邮件，要求在2030年6月26日前提交接口文档，联系人邮箱为user16@example.com。",
+      "summary": "星河项目接口文档截止日为6月26日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "星河",
+        "接口文档"
+      ]
+    },
+    {
+      "id": "email-017",
+      "type": "email_fact",
+      "text": "李岚发送了远航项目邮件，要求在2030年6月27日前提交风险表，联系人邮箱为user17@example.com。",
+      "summary": "远航项目风险表截止日为6月27日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "远航",
+        "风险表"
+      ]
+    },
+    {
+      "id": "email-018",
+      "type": "email_fact",
+      "text": "王航发送了北斗项目邮件，要求在2030年6月10日前提交需求评审稿，联系人邮箱为user18@example.com。",
+      "summary": "北斗项目需求评审稿截止日为6月10日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "北斗",
+        "需求评审稿"
+      ]
+    },
+    {
+      "id": "email-019",
+      "type": "email_fact",
+      "text": "陈雨发送了云帆项目邮件，要求在2030年6月11日前提交验收材料，联系人邮箱为user19@example.com。",
+      "summary": "云帆项目验收材料截止日为6月11日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "云帆",
+        "验收材料"
+      ]
+    },
+    {
+      "id": "email-020",
+      "type": "email_fact",
+      "text": "赵宁发送了灯塔项目邮件，要求在2030年6月12日前提交演示视频，联系人邮箱为user20@example.com。",
+      "summary": "灯塔项目演示视频截止日为6月12日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "灯塔",
+        "演示视频"
+      ]
+    },
+    {
+      "id": "email-021",
+      "type": "email_fact",
+      "text": "周琦发送了山海项目邮件，要求在2030年6月13日前提交测试报告，联系人邮箱为user21@example.com。",
+      "summary": "山海项目测试报告截止日为6月13日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "山海",
+        "测试报告"
+      ]
+    },
+    {
+      "id": "email-022",
+      "type": "email_fact",
+      "text": "吴桐发送了晨曦项目邮件，要求在2030年6月14日前提交周报，联系人邮箱为user22@example.com。",
+      "summary": "晨曦项目周报截止日为6月14日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "晨曦",
+        "周报"
+      ]
+    },
+    {
+      "id": "email-023",
+      "type": "email_fact",
+      "text": "孙悦发送了青鸟项目邮件，要求在2030年6月15日前提交部署清单，联系人邮箱为user23@example.com。",
+      "summary": "青鸟项目部署清单截止日为6月15日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "青鸟",
+        "部署清单"
+      ]
+    },
+    {
+      "id": "email-024",
+      "type": "email_fact",
+      "text": "张明发送了星河项目邮件，要求在2030年6月16日前提交接口文档，联系人邮箱为user24@example.com。",
+      "summary": "星河项目接口文档截止日为6月16日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "星河",
+        "接口文档"
+      ]
+    },
+    {
+      "id": "email-025",
+      "type": "email_fact",
+      "text": "李岚发送了远航项目邮件，要求在2030年6月17日前提交风险表，联系人邮箱为user25@example.com。",
+      "summary": "远航项目风险表截止日为6月17日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "远航",
+        "风险表"
+      ]
+    },
+    {
+      "id": "email-026",
+      "type": "email_fact",
+      "text": "王航发送了北斗项目邮件，要求在2030年6月18日前提交需求评审稿，联系人邮箱为user26@example.com。",
+      "summary": "北斗项目需求评审稿截止日为6月18日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "北斗",
+        "需求评审稿"
+      ]
+    },
+    {
+      "id": "email-027",
+      "type": "email_fact",
+      "text": "陈雨发送了云帆项目邮件，要求在2030年6月19日前提交验收材料，联系人邮箱为user27@example.com。",
+      "summary": "云帆项目验收材料截止日为6月19日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "云帆",
+        "验收材料"
+      ]
+    },
+    {
+      "id": "email-028",
+      "type": "email_fact",
+      "text": "赵宁发送了灯塔项目邮件，要求在2030年6月20日前提交演示视频，联系人邮箱为user28@example.com。",
+      "summary": "灯塔项目演示视频截止日为6月20日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "灯塔",
+        "演示视频"
+      ]
+    },
+    {
+      "id": "email-029",
+      "type": "email_fact",
+      "text": "周琦发送了山海项目邮件，要求在2030年6月21日前提交测试报告，联系人邮箱为user29@example.com。",
+      "summary": "山海项目测试报告截止日为6月21日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "山海",
+        "测试报告"
+      ]
+    },
+    {
+      "id": "email-030",
+      "type": "email_fact",
+      "text": "吴桐发送了晨曦项目邮件，要求在2030年6月22日前提交周报，联系人邮箱为user30@example.com。",
+      "summary": "晨曦项目周报截止日为6月22日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "晨曦",
+        "周报"
+      ]
+    },
+    {
+      "id": "email-031",
+      "type": "email_fact",
+      "text": "孙悦发送了青鸟项目邮件，要求在2030年6月23日前提交部署清单，联系人邮箱为user31@example.com。",
+      "summary": "青鸟项目部署清单截止日为6月23日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "青鸟",
+        "部署清单"
+      ]
+    },
+    {
+      "id": "email-032",
+      "type": "email_fact",
+      "text": "张明发送了星河项目邮件，要求在2030年6月24日前提交接口文档，联系人邮箱为user32@example.com。",
+      "summary": "星河项目接口文档截止日为6月24日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "星河",
+        "接口文档"
+      ]
+    },
+    {
+      "id": "email-033",
+      "type": "email_fact",
+      "text": "李岚发送了远航项目邮件，要求在2030年6月25日前提交风险表，联系人邮箱为user33@example.com。",
+      "summary": "远航项目风险表截止日为6月25日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "远航",
+        "风险表"
+      ]
+    },
+    {
+      "id": "email-034",
+      "type": "email_fact",
+      "text": "王航发送了北斗项目邮件，要求在2030年6月26日前提交需求评审稿，联系人邮箱为user34@example.com。",
+      "summary": "北斗项目需求评审稿截止日为6月26日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "北斗",
+        "需求评审稿"
+      ]
+    },
+    {
+      "id": "email-035",
+      "type": "email_fact",
+      "text": "陈雨发送了云帆项目邮件，要求在2030年6月27日前提交验收材料，联系人邮箱为user35@example.com。",
+      "summary": "云帆项目验收材料截止日为6月27日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "云帆",
+        "验收材料"
+      ]
+    },
+    {
+      "id": "email-036",
+      "type": "email_fact",
+      "text": "赵宁发送了灯塔项目邮件，要求在2030年6月10日前提交演示视频，联系人邮箱为user36@example.com。",
+      "summary": "灯塔项目演示视频截止日为6月10日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "灯塔",
+        "演示视频"
+      ]
+    },
+    {
+      "id": "email-037",
+      "type": "email_fact",
+      "text": "周琦发送了山海项目邮件，要求在2030年6月11日前提交测试报告，联系人邮箱为user37@example.com。",
+      "summary": "山海项目测试报告截止日为6月11日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "山海",
+        "测试报告"
+      ]
+    },
+    {
+      "id": "email-038",
+      "type": "email_fact",
+      "text": "吴桐发送了晨曦项目邮件，要求在2030年6月12日前提交周报，联系人邮箱为user38@example.com。",
+      "summary": "晨曦项目周报截止日为6月12日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "晨曦",
+        "周报"
+      ]
+    },
+    {
+      "id": "email-039",
+      "type": "email_fact",
+      "text": "孙悦发送了青鸟项目邮件，要求在2030年6月13日前提交部署清单，联系人邮箱为user39@example.com。",
+      "summary": "青鸟项目部署清单截止日为6月13日",
+      "source": "email",
+      "tags": [
+        "email",
+        "deadline",
+        "青鸟",
+        "部署清单"
+      ]
+    },
+    {
+      "id": "calendar-000",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月1日9点举行架构评审，地点为飞书会议，事件编号CAL-000。",
+      "summary": "7月1日架构评审@飞书会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "架构评审",
+        "飞书会议"
+      ]
+    },
+    {
+      "id": "calendar-001",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月2日10点举行产品周会，地点为西湖会议室，事件编号CAL-001。",
+      "summary": "7月2日产品周会@西湖会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "产品周会",
+        "西湖会议室"
+      ]
+    },
+    {
+      "id": "calendar-002",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月3日11点举行项目复盘，地点为线上Zoom，事件编号CAL-002。",
+      "summary": "7月3日项目复盘@线上Zoom",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "项目复盘",
+        "线上Zoom"
+      ]
+    },
+    {
+      "id": "calendar-003",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月4日12点举行面试沟通，地点为腾讯会议，事件编号CAL-003。",
+      "summary": "7月4日面试沟通@腾讯会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "面试沟通",
+        "腾讯会议"
+      ]
+    },
+    {
+      "id": "calendar-004",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月5日13点举行需求澄清，地点为北京A座，事件编号CAL-004。",
+      "summary": "7月5日需求澄清@北京A座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "需求澄清",
+        "北京A座"
+      ]
+    },
+    {
+      "id": "calendar-005",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月6日14点举行上线评审，地点为科技园路演厅，事件编号CAL-005。",
+      "summary": "7月6日上线评审@科技园路演厅",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "上线评审",
+        "科技园路演厅"
+      ]
+    },
+    {
+      "id": "calendar-006",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月7日15点举行技术分享，地点为滨江会议室，事件编号CAL-006。",
+      "summary": "7月7日技术分享@滨江会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "技术分享",
+        "滨江会议室"
+      ]
+    },
+    {
+      "id": "calendar-007",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月8日16点举行客户访谈，地点为上海B座，事件编号CAL-007。",
+      "summary": "7月8日客户访谈@上海B座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "客户访谈",
+        "上海B座"
+      ]
+    },
+    {
+      "id": "calendar-008",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月9日9点举行架构评审，地点为飞书会议，事件编号CAL-008。",
+      "summary": "7月9日架构评审@飞书会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "架构评审",
+        "飞书会议"
+      ]
+    },
+    {
+      "id": "calendar-009",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月10日10点举行产品周会，地点为西湖会议室，事件编号CAL-009。",
+      "summary": "7月10日产品周会@西湖会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "产品周会",
+        "西湖会议室"
+      ]
+    },
+    {
+      "id": "calendar-010",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月11日11点举行项目复盘，地点为线上Zoom，事件编号CAL-010。",
+      "summary": "7月11日项目复盘@线上Zoom",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "项目复盘",
+        "线上Zoom"
+      ]
+    },
+    {
+      "id": "calendar-011",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月12日12点举行面试沟通，地点为腾讯会议，事件编号CAL-011。",
+      "summary": "7月12日面试沟通@腾讯会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "面试沟通",
+        "腾讯会议"
+      ]
+    },
+    {
+      "id": "calendar-012",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月13日13点举行需求澄清，地点为北京A座，事件编号CAL-012。",
+      "summary": "7月13日需求澄清@北京A座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "需求澄清",
+        "北京A座"
+      ]
+    },
+    {
+      "id": "calendar-013",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月14日14点举行上线评审，地点为科技园路演厅，事件编号CAL-013。",
+      "summary": "7月14日上线评审@科技园路演厅",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "上线评审",
+        "科技园路演厅"
+      ]
+    },
+    {
+      "id": "calendar-014",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月15日15点举行技术分享，地点为滨江会议室，事件编号CAL-014。",
+      "summary": "7月15日技术分享@滨江会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "技术分享",
+        "滨江会议室"
+      ]
+    },
+    {
+      "id": "calendar-015",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月16日16点举行客户访谈，地点为上海B座，事件编号CAL-015。",
+      "summary": "7月16日客户访谈@上海B座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "客户访谈",
+        "上海B座"
+      ]
+    },
+    {
+      "id": "calendar-016",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月17日9点举行架构评审，地点为飞书会议，事件编号CAL-016。",
+      "summary": "7月17日架构评审@飞书会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "架构评审",
+        "飞书会议"
+      ]
+    },
+    {
+      "id": "calendar-017",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月18日10点举行产品周会，地点为西湖会议室，事件编号CAL-017。",
+      "summary": "7月18日产品周会@西湖会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "产品周会",
+        "西湖会议室"
+      ]
+    },
+    {
+      "id": "calendar-018",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月19日11点举行项目复盘，地点为线上Zoom，事件编号CAL-018。",
+      "summary": "7月19日项目复盘@线上Zoom",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "项目复盘",
+        "线上Zoom"
+      ]
+    },
+    {
+      "id": "calendar-019",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月20日12点举行面试沟通，地点为腾讯会议，事件编号CAL-019。",
+      "summary": "7月20日面试沟通@腾讯会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "面试沟通",
+        "腾讯会议"
+      ]
+    },
+    {
+      "id": "calendar-020",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月21日13点举行需求澄清，地点为北京A座，事件编号CAL-020。",
+      "summary": "7月21日需求澄清@北京A座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "需求澄清",
+        "北京A座"
+      ]
+    },
+    {
+      "id": "calendar-021",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月22日14点举行上线评审，地点为科技园路演厅，事件编号CAL-021。",
+      "summary": "7月22日上线评审@科技园路演厅",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "上线评审",
+        "科技园路演厅"
+      ]
+    },
+    {
+      "id": "calendar-022",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月23日15点举行技术分享，地点为滨江会议室，事件编号CAL-022。",
+      "summary": "7月23日技术分享@滨江会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "技术分享",
+        "滨江会议室"
+      ]
+    },
+    {
+      "id": "calendar-023",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月24日16点举行客户访谈，地点为上海B座，事件编号CAL-023。",
+      "summary": "7月24日客户访谈@上海B座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "客户访谈",
+        "上海B座"
+      ]
+    },
+    {
+      "id": "calendar-024",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月25日9点举行架构评审，地点为飞书会议，事件编号CAL-024。",
+      "summary": "7月25日架构评审@飞书会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "架构评审",
+        "飞书会议"
+      ]
+    },
+    {
+      "id": "calendar-025",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月1日10点举行产品周会，地点为西湖会议室，事件编号CAL-025。",
+      "summary": "7月1日产品周会@西湖会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "产品周会",
+        "西湖会议室"
+      ]
+    },
+    {
+      "id": "calendar-026",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月2日11点举行项目复盘，地点为线上Zoom，事件编号CAL-026。",
+      "summary": "7月2日项目复盘@线上Zoom",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "项目复盘",
+        "线上Zoom"
+      ]
+    },
+    {
+      "id": "calendar-027",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月3日12点举行面试沟通，地点为腾讯会议，事件编号CAL-027。",
+      "summary": "7月3日面试沟通@腾讯会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "面试沟通",
+        "腾讯会议"
+      ]
+    },
+    {
+      "id": "calendar-028",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月4日13点举行需求澄清，地点为北京A座，事件编号CAL-028。",
+      "summary": "7月4日需求澄清@北京A座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "需求澄清",
+        "北京A座"
+      ]
+    },
+    {
+      "id": "calendar-029",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月5日14点举行上线评审，地点为科技园路演厅，事件编号CAL-029。",
+      "summary": "7月5日上线评审@科技园路演厅",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "上线评审",
+        "科技园路演厅"
+      ]
+    },
+    {
+      "id": "calendar-030",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月6日15点举行技术分享，地点为滨江会议室，事件编号CAL-030。",
+      "summary": "7月6日技术分享@滨江会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "技术分享",
+        "滨江会议室"
+      ]
+    },
+    {
+      "id": "calendar-031",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月7日16点举行客户访谈，地点为上海B座，事件编号CAL-031。",
+      "summary": "7月7日客户访谈@上海B座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "客户访谈",
+        "上海B座"
+      ]
+    },
+    {
+      "id": "calendar-032",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月8日9点举行架构评审，地点为飞书会议，事件编号CAL-032。",
+      "summary": "7月8日架构评审@飞书会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "架构评审",
+        "飞书会议"
+      ]
+    },
+    {
+      "id": "calendar-033",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月9日10点举行产品周会，地点为西湖会议室，事件编号CAL-033。",
+      "summary": "7月9日产品周会@西湖会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "产品周会",
+        "西湖会议室"
+      ]
+    },
+    {
+      "id": "calendar-034",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月10日11点举行项目复盘，地点为线上Zoom，事件编号CAL-034。",
+      "summary": "7月10日项目复盘@线上Zoom",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "项目复盘",
+        "线上Zoom"
+      ]
+    },
+    {
+      "id": "calendar-035",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月11日12点举行面试沟通，地点为腾讯会议，事件编号CAL-035。",
+      "summary": "7月11日面试沟通@腾讯会议",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "面试沟通",
+        "腾讯会议"
+      ]
+    },
+    {
+      "id": "calendar-036",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月12日13点举行需求澄清，地点为北京A座，事件编号CAL-036。",
+      "summary": "7月12日需求澄清@北京A座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "需求澄清",
+        "北京A座"
+      ]
+    },
+    {
+      "id": "calendar-037",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月13日14点举行上线评审，地点为科技园路演厅，事件编号CAL-037。",
+      "summary": "7月13日上线评审@科技园路演厅",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "上线评审",
+        "科技园路演厅"
+      ]
+    },
+    {
+      "id": "calendar-038",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月14日15点举行技术分享，地点为滨江会议室，事件编号CAL-038。",
+      "summary": "7月14日技术分享@滨江会议室",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "技术分享",
+        "滨江会议室"
+      ]
+    },
+    {
+      "id": "calendar-039",
+      "type": "calendar_event",
+      "text": "日程事件：2030年7月15日16点举行客户访谈，地点为上海B座，事件编号CAL-039。",
+      "summary": "7月15日客户访谈@上海B座",
+      "source": "calendar",
+      "tags": [
+        "calendar",
+        "schedule",
+        "客户访谈",
+        "上海B座"
+      ]
+    },
+    {
+      "id": "travel-000",
+      "type": "travel_preference",
+      "text": "上次杭州旅行记录TRIP-000显示，用户喜欢轻松慢游，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "杭州历史旅行：轻松慢游、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "杭州",
+        "轻松慢游",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-001",
+      "type": "travel_preference",
+      "text": "上次广州旅行记录TRIP-001显示，用户喜欢短途徒步，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "广州历史旅行：短途徒步、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "广州",
+        "短途徒步",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-002",
+      "type": "travel_preference",
+      "text": "上次上海旅行记录TRIP-002显示，用户喜欢摄影，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "上海历史旅行：摄影、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "上海",
+        "摄影",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-003",
+      "type": "travel_preference",
+      "text": "上次北京旅行记录TRIP-003显示，用户喜欢美食探店，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "北京历史旅行：美食探店、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "北京",
+        "美食探店",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "travel-004",
+      "type": "travel_preference",
+      "text": "上次成都旅行记录TRIP-004显示，用户喜欢亲子活动，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "成都历史旅行：亲子活动、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "成都",
+        "亲子活动",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-005",
+      "type": "travel_preference",
+      "text": "上次苏州旅行记录TRIP-005显示，用户喜欢博物馆，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "苏州历史旅行：博物馆、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "苏州",
+        "博物馆",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-006",
+      "type": "travel_preference",
+      "text": "上次深圳旅行记录TRIP-006显示，用户喜欢自然风景，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "深圳历史旅行：自然风景、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "深圳",
+        "自然风景",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-007",
+      "type": "travel_preference",
+      "text": "上次南京旅行记录TRIP-007显示，用户喜欢城市漫步，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "南京历史旅行：城市漫步、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "南京",
+        "城市漫步",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "travel-008",
+      "type": "travel_preference",
+      "text": "上次杭州旅行记录TRIP-008显示，用户喜欢轻松慢游，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "杭州历史旅行：轻松慢游、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "杭州",
+        "轻松慢游",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-009",
+      "type": "travel_preference",
+      "text": "上次广州旅行记录TRIP-009显示，用户喜欢短途徒步，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "广州历史旅行：短途徒步、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "广州",
+        "短途徒步",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-010",
+      "type": "travel_preference",
+      "text": "上次上海旅行记录TRIP-010显示，用户喜欢摄影，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "上海历史旅行：摄影、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "上海",
+        "摄影",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-011",
+      "type": "travel_preference",
+      "text": "上次北京旅行记录TRIP-011显示，用户喜欢美食探店，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "北京历史旅行：美食探店、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "北京",
+        "美食探店",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "travel-012",
+      "type": "travel_preference",
+      "text": "上次成都旅行记录TRIP-012显示，用户喜欢亲子活动，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "成都历史旅行：亲子活动、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "成都",
+        "亲子活动",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-013",
+      "type": "travel_preference",
+      "text": "上次苏州旅行记录TRIP-013显示，用户喜欢博物馆，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "苏州历史旅行：博物馆、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "苏州",
+        "博物馆",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-014",
+      "type": "travel_preference",
+      "text": "上次深圳旅行记录TRIP-014显示，用户喜欢自然风景，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "深圳历史旅行：自然风景、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "深圳",
+        "自然风景",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-015",
+      "type": "travel_preference",
+      "text": "上次南京旅行记录TRIP-015显示，用户喜欢城市漫步，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "南京历史旅行：城市漫步、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "南京",
+        "城市漫步",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "travel-016",
+      "type": "travel_preference",
+      "text": "上次杭州旅行记录TRIP-016显示，用户喜欢轻松慢游，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "杭州历史旅行：轻松慢游、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "杭州",
+        "轻松慢游",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-017",
+      "type": "travel_preference",
+      "text": "上次广州旅行记录TRIP-017显示，用户喜欢短途徒步，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "广州历史旅行：短途徒步、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "广州",
+        "短途徒步",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-018",
+      "type": "travel_preference",
+      "text": "上次上海旅行记录TRIP-018显示，用户喜欢摄影，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "上海历史旅行：摄影、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "上海",
+        "摄影",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-019",
+      "type": "travel_preference",
+      "text": "上次北京旅行记录TRIP-019显示，用户喜欢美食探店，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "北京历史旅行：美食探店、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "北京",
+        "美食探店",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "travel-020",
+      "type": "travel_preference",
+      "text": "上次成都旅行记录TRIP-020显示，用户喜欢亲子活动，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "成都历史旅行：亲子活动、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "成都",
+        "亲子活动",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-021",
+      "type": "travel_preference",
+      "text": "上次苏州旅行记录TRIP-021显示，用户喜欢博物馆，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "苏州历史旅行：博物馆、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "苏州",
+        "博物馆",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-022",
+      "type": "travel_preference",
+      "text": "上次深圳旅行记录TRIP-022显示，用户喜欢自然风景，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "深圳历史旅行：自然风景、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "深圳",
+        "自然风景",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-023",
+      "type": "travel_preference",
+      "text": "上次南京旅行记录TRIP-023显示，用户喜欢城市漫步，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "南京历史旅行：城市漫步、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "南京",
+        "城市漫步",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "travel-024",
+      "type": "travel_preference",
+      "text": "上次杭州旅行记录TRIP-024显示，用户喜欢轻松慢游，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "杭州历史旅行：轻松慢游、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "杭州",
+        "轻松慢游",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-025",
+      "type": "travel_preference",
+      "text": "上次广州旅行记录TRIP-025显示，用户喜欢短途徒步，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "广州历史旅行：短途徒步、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "广州",
+        "短途徒步",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-026",
+      "type": "travel_preference",
+      "text": "上次上海旅行记录TRIP-026显示，用户喜欢摄影，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "上海历史旅行：摄影、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "上海",
+        "摄影",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-027",
+      "type": "travel_preference",
+      "text": "上次北京旅行记录TRIP-027显示，用户喜欢美食探店，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "北京历史旅行：美食探店、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "北京",
+        "美食探店",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "travel-028",
+      "type": "travel_preference",
+      "text": "上次成都旅行记录TRIP-028显示，用户喜欢亲子活动，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "成都历史旅行：亲子活动、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "成都",
+        "亲子活动",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-029",
+      "type": "travel_preference",
+      "text": "上次苏州旅行记录TRIP-029显示，用户喜欢博物馆，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "苏州历史旅行：博物馆、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "苏州",
+        "博物馆",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-030",
+      "type": "travel_preference",
+      "text": "上次深圳旅行记录TRIP-030显示，用户喜欢自然风景，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "深圳历史旅行：自然风景、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "深圳",
+        "自然风景",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-031",
+      "type": "travel_preference",
+      "text": "上次南京旅行记录TRIP-031显示，用户喜欢城市漫步，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "南京历史旅行：城市漫步、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "南京",
+        "城市漫步",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "travel-032",
+      "type": "travel_preference",
+      "text": "上次杭州旅行记录TRIP-032显示，用户喜欢轻松慢游，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "杭州历史旅行：轻松慢游、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "杭州",
+        "轻松慢游",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-033",
+      "type": "travel_preference",
+      "text": "上次广州旅行记录TRIP-033显示，用户喜欢短途徒步，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "广州历史旅行：短途徒步、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "广州",
+        "短途徒步",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-034",
+      "type": "travel_preference",
+      "text": "上次上海旅行记录TRIP-034显示，用户喜欢摄影，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "上海历史旅行：摄影、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "上海",
+        "摄影",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-035",
+      "type": "travel_preference",
+      "text": "上次北京旅行记录TRIP-035显示，用户喜欢美食探店，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "北京历史旅行：美食探店、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "北京",
+        "美食探店",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "travel-036",
+      "type": "travel_preference",
+      "text": "上次成都旅行记录TRIP-036显示，用户喜欢亲子活动，住宿选择地铁旁酒店，每天最多安排三个主要活动。",
+      "summary": "成都历史旅行：亲子活动、地铁旁酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "成都",
+        "亲子活动",
+        "地铁旁酒店"
+      ]
+    },
+    {
+      "id": "travel-037",
+      "type": "travel_preference",
+      "text": "上次苏州旅行记录TRIP-037显示，用户喜欢博物馆，住宿选择安静民宿，每天最多安排三个主要活动。",
+      "summary": "苏州历史旅行：博物馆、安静民宿",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "苏州",
+        "博物馆",
+        "安静民宿"
+      ]
+    },
+    {
+      "id": "travel-038",
+      "type": "travel_preference",
+      "text": "上次深圳旅行记录TRIP-038显示，用户喜欢自然风景，住宿选择景区内客栈，每天最多安排三个主要活动。",
+      "summary": "深圳历史旅行：自然风景、景区内客栈",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "深圳",
+        "自然风景",
+        "景区内客栈"
+      ]
+    },
+    {
+      "id": "travel-039",
+      "type": "travel_preference",
+      "text": "上次南京旅行记录TRIP-039显示，用户喜欢城市漫步，住宿选择商务酒店，每天最多安排三个主要活动。",
+      "summary": "南京历史旅行：城市漫步、商务酒店",
+      "source": "planning",
+      "tags": [
+        "travel",
+        "plan",
+        "南京",
+        "城市漫步",
+        "商务酒店"
+      ]
+    },
+    {
+      "id": "shopping-000",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-000：购买降噪耳机时偏好品牌甲，预算上限500元，更看重耐用和售后。",
+      "summary": "降噪耳机偏好品牌甲，预算500元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "降噪耳机",
+        "品牌甲",
+        "500"
+      ]
+    },
+    {
+      "id": "shopping-001",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-001：购买机械键盘时偏好品牌丁，预算上限575元，更看重耐用和售后。",
+      "summary": "机械键盘偏好品牌丁，预算575元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "机械键盘",
+        "品牌丁",
+        "575"
+      ]
+    },
+    {
+      "id": "shopping-002",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-002：购买显示器时偏好品牌庚，预算上限650元，更看重耐用和售后。",
+      "summary": "显示器偏好品牌庚，预算650元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "显示器",
+        "品牌庚",
+        "650"
+      ]
+    },
+    {
+      "id": "shopping-003",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-003：购买双肩包时偏好品牌乙，预算上限725元，更看重耐用和售后。",
+      "summary": "双肩包偏好品牌乙，预算725元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "双肩包",
+        "品牌乙",
+        "725"
+      ]
+    },
+    {
+      "id": "shopping-004",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-004：购买运动手表时偏好品牌戊，预算上限800元，更看重耐用和售后。",
+      "summary": "运动手表偏好品牌戊，预算800元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "运动手表",
+        "品牌戊",
+        "800"
+      ]
+    },
+    {
+      "id": "shopping-005",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-005：购买咖啡机时偏好品牌辛，预算上限875元，更看重耐用和售后。",
+      "summary": "咖啡机偏好品牌辛，预算875元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "咖啡机",
+        "品牌辛",
+        "875"
+      ]
+    },
+    {
+      "id": "shopping-006",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-006：购买行李箱时偏好品牌丙，预算上限950元，更看重耐用和售后。",
+      "summary": "行李箱偏好品牌丙，预算950元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "行李箱",
+        "品牌丙",
+        "950"
+      ]
+    },
+    {
+      "id": "shopping-007",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-007：购买人体工学椅时偏好品牌己，预算上限1025元，更看重耐用和售后。",
+      "summary": "人体工学椅偏好品牌己，预算1025元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "人体工学椅",
+        "品牌己",
+        "1025"
+      ]
+    },
+    {
+      "id": "shopping-008",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-008：购买降噪耳机时偏好品牌甲，预算上限1100元，更看重耐用和售后。",
+      "summary": "降噪耳机偏好品牌甲，预算1100元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "降噪耳机",
+        "品牌甲",
+        "1100"
+      ]
+    },
+    {
+      "id": "shopping-009",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-009：购买机械键盘时偏好品牌丁，预算上限1175元，更看重耐用和售后。",
+      "summary": "机械键盘偏好品牌丁，预算1175元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "机械键盘",
+        "品牌丁",
+        "1175"
+      ]
+    },
+    {
+      "id": "shopping-010",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-010：购买显示器时偏好品牌庚，预算上限1250元，更看重耐用和售后。",
+      "summary": "显示器偏好品牌庚，预算1250元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "显示器",
+        "品牌庚",
+        "1250"
+      ]
+    },
+    {
+      "id": "shopping-011",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-011：购买双肩包时偏好品牌乙，预算上限1325元，更看重耐用和售后。",
+      "summary": "双肩包偏好品牌乙，预算1325元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "双肩包",
+        "品牌乙",
+        "1325"
+      ]
+    },
+    {
+      "id": "shopping-012",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-012：购买运动手表时偏好品牌戊，预算上限1400元，更看重耐用和售后。",
+      "summary": "运动手表偏好品牌戊，预算1400元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "运动手表",
+        "品牌戊",
+        "1400"
+      ]
+    },
+    {
+      "id": "shopping-013",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-013：购买咖啡机时偏好品牌辛，预算上限1475元，更看重耐用和售后。",
+      "summary": "咖啡机偏好品牌辛，预算1475元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "咖啡机",
+        "品牌辛",
+        "1475"
+      ]
+    },
+    {
+      "id": "shopping-014",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-014：购买行李箱时偏好品牌丙，预算上限1550元，更看重耐用和售后。",
+      "summary": "行李箱偏好品牌丙，预算1550元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "行李箱",
+        "品牌丙",
+        "1550"
+      ]
+    },
+    {
+      "id": "shopping-015",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-015：购买人体工学椅时偏好品牌己，预算上限1625元，更看重耐用和售后。",
+      "summary": "人体工学椅偏好品牌己，预算1625元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "人体工学椅",
+        "品牌己",
+        "1625"
+      ]
+    },
+    {
+      "id": "shopping-016",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-016：购买降噪耳机时偏好品牌甲，预算上限1700元，更看重耐用和售后。",
+      "summary": "降噪耳机偏好品牌甲，预算1700元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "降噪耳机",
+        "品牌甲",
+        "1700"
+      ]
+    },
+    {
+      "id": "shopping-017",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-017：购买机械键盘时偏好品牌丁，预算上限1775元，更看重耐用和售后。",
+      "summary": "机械键盘偏好品牌丁，预算1775元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "机械键盘",
+        "品牌丁",
+        "1775"
+      ]
+    },
+    {
+      "id": "shopping-018",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-018：购买显示器时偏好品牌庚，预算上限1850元，更看重耐用和售后。",
+      "summary": "显示器偏好品牌庚，预算1850元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "显示器",
+        "品牌庚",
+        "1850"
+      ]
+    },
+    {
+      "id": "shopping-019",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-019：购买双肩包时偏好品牌乙，预算上限1925元，更看重耐用和售后。",
+      "summary": "双肩包偏好品牌乙，预算1925元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "双肩包",
+        "品牌乙",
+        "1925"
+      ]
+    },
+    {
+      "id": "shopping-020",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-020：购买运动手表时偏好品牌戊，预算上限2000元，更看重耐用和售后。",
+      "summary": "运动手表偏好品牌戊，预算2000元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "运动手表",
+        "品牌戊",
+        "2000"
+      ]
+    },
+    {
+      "id": "shopping-021",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-021：购买咖啡机时偏好品牌辛，预算上限2075元，更看重耐用和售后。",
+      "summary": "咖啡机偏好品牌辛，预算2075元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "咖啡机",
+        "品牌辛",
+        "2075"
+      ]
+    },
+    {
+      "id": "shopping-022",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-022：购买行李箱时偏好品牌丙，预算上限2150元，更看重耐用和售后。",
+      "summary": "行李箱偏好品牌丙，预算2150元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "行李箱",
+        "品牌丙",
+        "2150"
+      ]
+    },
+    {
+      "id": "shopping-023",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-023：购买人体工学椅时偏好品牌己，预算上限2225元，更看重耐用和售后。",
+      "summary": "人体工学椅偏好品牌己，预算2225元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "人体工学椅",
+        "品牌己",
+        "2225"
+      ]
+    },
+    {
+      "id": "shopping-024",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-024：购买降噪耳机时偏好品牌甲，预算上限2300元，更看重耐用和售后。",
+      "summary": "降噪耳机偏好品牌甲，预算2300元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "降噪耳机",
+        "品牌甲",
+        "2300"
+      ]
+    },
+    {
+      "id": "shopping-025",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-025：购买机械键盘时偏好品牌丁，预算上限2375元，更看重耐用和售后。",
+      "summary": "机械键盘偏好品牌丁，预算2375元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "机械键盘",
+        "品牌丁",
+        "2375"
+      ]
+    },
+    {
+      "id": "shopping-026",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-026：购买显示器时偏好品牌庚，预算上限2450元，更看重耐用和售后。",
+      "summary": "显示器偏好品牌庚，预算2450元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "显示器",
+        "品牌庚",
+        "2450"
+      ]
+    },
+    {
+      "id": "shopping-027",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-027：购买双肩包时偏好品牌乙，预算上限2525元，更看重耐用和售后。",
+      "summary": "双肩包偏好品牌乙，预算2525元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "双肩包",
+        "品牌乙",
+        "2525"
+      ]
+    },
+    {
+      "id": "shopping-028",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-028：购买运动手表时偏好品牌戊，预算上限2600元，更看重耐用和售后。",
+      "summary": "运动手表偏好品牌戊，预算2600元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "运动手表",
+        "品牌戊",
+        "2600"
+      ]
+    },
+    {
+      "id": "shopping-029",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-029：购买咖啡机时偏好品牌辛，预算上限2675元，更看重耐用和售后。",
+      "summary": "咖啡机偏好品牌辛，预算2675元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "咖啡机",
+        "品牌辛",
+        "2675"
+      ]
+    },
+    {
+      "id": "shopping-030",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-030：购买行李箱时偏好品牌丙，预算上限2750元，更看重耐用和售后。",
+      "summary": "行李箱偏好品牌丙，预算2750元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "行李箱",
+        "品牌丙",
+        "2750"
+      ]
+    },
+    {
+      "id": "shopping-031",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-031：购买人体工学椅时偏好品牌己，预算上限2825元，更看重耐用和售后。",
+      "summary": "人体工学椅偏好品牌己，预算2825元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "人体工学椅",
+        "品牌己",
+        "2825"
+      ]
+    },
+    {
+      "id": "shopping-032",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-032：购买降噪耳机时偏好品牌甲，预算上限2900元，更看重耐用和售后。",
+      "summary": "降噪耳机偏好品牌甲，预算2900元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "降噪耳机",
+        "品牌甲",
+        "2900"
+      ]
+    },
+    {
+      "id": "shopping-033",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-033：购买机械键盘时偏好品牌丁，预算上限2975元，更看重耐用和售后。",
+      "summary": "机械键盘偏好品牌丁，预算2975元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "机械键盘",
+        "品牌丁",
+        "2975"
+      ]
+    },
+    {
+      "id": "shopping-034",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-034：购买显示器时偏好品牌庚，预算上限3050元，更看重耐用和售后。",
+      "summary": "显示器偏好品牌庚，预算3050元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "显示器",
+        "品牌庚",
+        "3050"
+      ]
+    },
+    {
+      "id": "shopping-035",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-035：购买双肩包时偏好品牌乙，预算上限3125元，更看重耐用和售后。",
+      "summary": "双肩包偏好品牌乙，预算3125元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "双肩包",
+        "品牌乙",
+        "3125"
+      ]
+    },
+    {
+      "id": "shopping-036",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-036：购买运动手表时偏好品牌戊，预算上限3200元，更看重耐用和售后。",
+      "summary": "运动手表偏好品牌戊，预算3200元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "运动手表",
+        "品牌戊",
+        "3200"
+      ]
+    },
+    {
+      "id": "shopping-037",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-037：购买咖啡机时偏好品牌辛，预算上限3275元，更看重耐用和售后。",
+      "summary": "咖啡机偏好品牌辛，预算3275元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "咖啡机",
+        "品牌辛",
+        "3275"
+      ]
+    },
+    {
+      "id": "shopping-038",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-038：购买行李箱时偏好品牌丙，预算上限3350元，更看重耐用和售后。",
+      "summary": "行李箱偏好品牌丙，预算3350元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "行李箱",
+        "品牌丙",
+        "3350"
+      ]
+    },
+    {
+      "id": "shopping-039",
+      "type": "shopping_preference",
+      "text": "购物记录SHOP-039：购买人体工学椅时偏好品牌己，预算上限3425元，更看重耐用和售后。",
+      "summary": "人体工学椅偏好品牌己，预算3425元",
+      "source": "conversation",
+      "tags": [
+        "shopping",
+        "人体工学椅",
+        "品牌己",
+        "3425"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "id": "conversation-q-00",
+      "query": "规划杭州行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-000"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-01",
+      "query": "规划苏州行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-001"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-02",
+      "query": "规划上海行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-002"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-03",
+      "query": "规划南京行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-003"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-04",
+      "query": "规划成都行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-004"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-05",
+      "query": "规划广州行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-005"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-06",
+      "query": "规划深圳行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-006"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-07",
+      "query": "规划北京行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-007"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-08",
+      "query": "规划杭州行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-008"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-09",
+      "query": "规划苏州行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-009"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "conversation-q-10",
+      "query": "规划上海行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-010"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "conversation-q-11",
+      "query": "规划南京行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-011"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "conversation-q-12",
+      "query": "规划成都行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-012"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "conversation-q-13",
+      "query": "规划广州行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-013"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "conversation-q-14",
+      "query": "规划深圳行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-014"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "conversation-q-15",
+      "query": "规划北京行程时，我喜欢什么节奏和餐饮？",
+      "relevant_ids": [
+        "conversation-015"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "email-q-00",
+      "query": "星河项目的接口文档由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-000"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-01",
+      "query": "远航项目的风险表由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-001"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-02",
+      "query": "北斗项目的需求评审稿由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-002"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-03",
+      "query": "云帆项目的验收材料由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-003"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-04",
+      "query": "灯塔项目的演示视频由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-004"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-05",
+      "query": "山海项目的测试报告由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-005"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-06",
+      "query": "晨曦项目的周报由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-006"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-07",
+      "query": "青鸟项目的部署清单由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-007"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-08",
+      "query": "星河项目的接口文档由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-008"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-09",
+      "query": "远航项目的风险表由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-009"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "email-q-10",
+      "query": "北斗项目的需求评审稿由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-010"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "email-q-11",
+      "query": "云帆项目的验收材料由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-011"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "email-q-12",
+      "query": "灯塔项目的演示视频由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-012"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "email-q-13",
+      "query": "山海项目的测试报告由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-013"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "email-q-14",
+      "query": "晨曦项目的周报由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-014"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "email-q-15",
+      "query": "青鸟项目的部署清单由谁通知，截止到哪天？",
+      "relevant_ids": [
+        "email-015"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "calendar-q-00",
+      "query": "CAL-000对应的架构评审在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-000"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-01",
+      "query": "CAL-001对应的产品周会在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-001"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-02",
+      "query": "CAL-002对应的项目复盘在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-002"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-03",
+      "query": "CAL-003对应的面试沟通在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-003"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-04",
+      "query": "CAL-004对应的需求澄清在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-004"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-05",
+      "query": "CAL-005对应的上线评审在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-005"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-06",
+      "query": "CAL-006对应的技术分享在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-006"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-07",
+      "query": "CAL-007对应的客户访谈在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-007"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-08",
+      "query": "CAL-008对应的架构评审在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-008"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-09",
+      "query": "CAL-009对应的产品周会在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-009"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "calendar-q-10",
+      "query": "CAL-010对应的项目复盘在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-010"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "calendar-q-11",
+      "query": "CAL-011对应的面试沟通在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-011"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "calendar-q-12",
+      "query": "CAL-012对应的需求澄清在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-012"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "calendar-q-13",
+      "query": "CAL-013对应的上线评审在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-013"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "calendar-q-14",
+      "query": "CAL-014对应的技术分享在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-014"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "calendar-q-15",
+      "query": "CAL-015对应的客户访谈在什么地点、几点开始？",
+      "relevant_ids": [
+        "calendar-015"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "travel-q-00",
+      "query": "参考TRIP-000，去杭州应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-000"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-01",
+      "query": "参考TRIP-001，去广州应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-001"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-02",
+      "query": "参考TRIP-002，去上海应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-002"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-03",
+      "query": "参考TRIP-003，去北京应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-003"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-04",
+      "query": "参考TRIP-004，去成都应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-004"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-05",
+      "query": "参考TRIP-005，去苏州应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-005"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-06",
+      "query": "参考TRIP-006，去深圳应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-006"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-07",
+      "query": "参考TRIP-007，去南京应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-007"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-08",
+      "query": "参考TRIP-008，去杭州应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-008"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-09",
+      "query": "参考TRIP-009，去广州应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-009"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "travel-q-10",
+      "query": "参考TRIP-010，去上海应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-010"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "travel-q-11",
+      "query": "参考TRIP-011，去北京应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-011"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "travel-q-12",
+      "query": "参考TRIP-012，去成都应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-012"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "travel-q-13",
+      "query": "参考TRIP-013，去苏州应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-013"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "travel-q-14",
+      "query": "参考TRIP-014，去深圳应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-014"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "travel-q-15",
+      "query": "参考TRIP-015，去南京应该选择哪类住宿和行程密度？",
+      "relevant_ids": [
+        "travel-015"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "shopping-q-00",
+      "query": "SHOP-000里购买降噪耳机的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-000"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-01",
+      "query": "SHOP-001里购买机械键盘的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-001"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-02",
+      "query": "SHOP-002里购买显示器的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-002"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-03",
+      "query": "SHOP-003里购买双肩包的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-003"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-04",
+      "query": "SHOP-004里购买运动手表的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-004"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-05",
+      "query": "SHOP-005里购买咖啡机的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-005"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-06",
+      "query": "SHOP-006里购买行李箱的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-006"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-07",
+      "query": "SHOP-007里购买人体工学椅的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-007"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-08",
+      "query": "SHOP-008里购买降噪耳机的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-008"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-09",
+      "query": "SHOP-009里购买机械键盘的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-009"
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "shopping-q-10",
+      "query": "SHOP-010里购买显示器的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-010"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "shopping-q-11",
+      "query": "SHOP-011里购买双肩包的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-011"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "shopping-q-12",
+      "query": "SHOP-012里购买运动手表的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-012"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "shopping-q-13",
+      "query": "SHOP-013里购买咖啡机的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-013"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "shopping-q-14",
+      "query": "SHOP-014里购买行李箱的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-014"
+      ],
+      "split": "test"
+    },
+    {
+      "id": "shopping-q-15",
+      "query": "SHOP-015里购买人体工学椅的品牌偏好和预算是多少？",
+      "relevant_ids": [
+        "shopping-015"
+      ],
+      "split": "test"
+    }
+  ]
+}

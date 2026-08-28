@@ -1,23 +1,42 @@
 .worktrees/
-.assets
+.assets/
 .env
-*.pyc
-dist/
-build/
-docs/
-*.egg-info/
-*.egg
-*.pyc
-*.pyo
-*.pyd
+.env.*
+!.env.example
+.copala/
+workspace/
+config.local.json
+*.db
+*.sqlite
+*.sqlite3
+*.log
+botpy.log
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
 *.pyw
 *.pyz
 *.pywz
 *.pyzz
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.tox/
+.nox/
 .venv/
 venv/
-__pycache__/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Project policy: this library does not commit environment lockfiles.
 poetry.lock
-.pytest_cache/
-botpy.log
+uv.lock
 

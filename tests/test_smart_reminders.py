@@ -9,7 +9,15 @@ from copala.smart_reminders.service import SmartReminderService
 
 class FakeAmap:
     async def geocode(self, address: str, city: str = ""):
-        return {"location": f"{hash(address) % 100}.0,31.0", "city": city or "Shanghai", "adcode": "310000"}
+        coordinates = {
+            "Office A": "121.4700,31.2300",
+            "Office B": "121.4800,31.2400",
+        }
+        return {
+            "location": coordinates.get(address, "121.4900,31.2500"),
+            "city": city or "Shanghai",
+            "adcode": "310000",
+        }
 
     async def weather(self, city_or_adcode: str, extensions: str = "base"):
         return {"city": "Shanghai", "weather": "rain", "temperature": "20"}

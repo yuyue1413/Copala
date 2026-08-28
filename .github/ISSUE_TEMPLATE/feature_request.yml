@@ -1,0 +1,30 @@
+name: Feature request
+description: 提议边界清晰的新能力或改进
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 谁在什么情况下需要这项能力？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 说明 Agent 行为、输入输出和副作用边界。
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: 兼容与安全影响
+      description: 是否影响 CLI、配置、路由、外部写入或冻结评测？
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 替代方案

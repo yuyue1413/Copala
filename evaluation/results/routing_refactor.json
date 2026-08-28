@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "seed": 20260520,
+  "environment": {
+    "timestamp": "2026-08-24T18:48:36.803691+08:00",
+    "commit": "f4ecb42",
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.13.14",
+    "processor": "Intel64 Family 6 Model 165 Stepping 5, GenuineIntel",
+    "packages": {
+      "copala-ai": "0.1.4.post4",
+      "pytest": "9.1.1",
+      "pytest-cov": "7.1.0",
+      "matrix-nio": "0.26.0",
+      "nh3": "0.3.7",
+      "mistune": "3.3.4"
+    }
+  },
+  "baseline": {
+    "passed": 278,
+    "failed": 3,
+    "total": 281
+  },
+  "dataset_hashes": {
+    "memory": "91eb2777bf80430d15a1ddbb491e3044135706a568a8f964bf65bebed5749761",
+    "routing": "fbf7f4e53281d29273c9b100df6fa7cbf9895997aedd63ca73bfb9bdb771e494",
+    "life_events": "f31151455435f3957602a7e00a1258bb1339cf95427b1dd5e7ccdfc8b6c27092",
+    "planning": "393a25189a57219d6114fba945859670c2b6bb96c12a057f4edd4a6fdbd20dae"
+  },
+  "dataset_hash": "c7bfab38d7d07c20d6537298e6da5e2dc2988eb5c9841a9e770a17e1fc672178",
+  "routing": {
+    "dataset_count": 180,
+    "dev": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "correct": 120,
+      "total": 120,
+      "fast_path_recall": 1.0,
+      "general_false_intercept_rate": 0.0,
+      "per_class": {
+        "calendar_query": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "daily_plan": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "life_event": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "llm_slow": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "outing_plan": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "smart_reminder": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        }
+      }
+    },
+    "test": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "correct": 60,
+      "total": 60,
+      "fast_path_recall": 1.0,
+      "general_false_intercept_rate": 0.0,
+      "per_class": {
+        "calendar_query": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "daily_plan": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "life_event": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "llm_slow": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "outing_plan": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "smart_reminder": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      }
+    },
+    "provider_bypass_test": {
+      "decision_accuracy": 1.0,
+      "correct": 60,
+      "total": 60,
+      "fast_path_provider_calls_avoided": 40,
+      "fast_path_total": 40,
+      "fast_path_avoidance_rate": 1.0,
+      "decision_hash": "c969f463da08d53162a3f6582dad1d346b9508947d91037e3e4edff0443167d3"
+    },
+    "deterministic": true
+  }
+}

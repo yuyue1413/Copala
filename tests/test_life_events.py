@@ -7,7 +7,7 @@ from types import SimpleNamespace
 
 from copala.bus.events import OutboundMessage
 from copala.calendar.service import CalendarEvent
-from copala.life_events.service import LifeEventManager
+from copala.life_events.service import LifeEventExtractor, LifeEventManager
 
 
 class FakeProvider:
@@ -82,6 +82,21 @@ def _config(**kwargs):
     }
     base.update(kwargs)
     return SimpleNamespace(**base)
+
+
+def test_life_event_extractor_ignores_non_actionable_mentions() -> None:
+    extractor = LifeEventExtractor()
+    samples = (
+        "请解释一下会议纪要应该怎么写",
+        "我不参加2030-10-01 10:00的会议",
+        "聚餐已经取消，不需要记录",
+        "取消考虑2030-10-02 11:00的酒店",
+        "航班信息只是示例，不是我的行程",
+        "去年参加过一次项目会议",
+    )
+
+    for index, text in enumerate(samples):
+        assert extractor.extract(text, source="test", source_ref=f"negative:{index}") == []
 
 
 def test_life_event_creates_formatted_feishu_event_and_notifies(tmp_path: Path) -> None:
@@ -212,11 +227,14 @@ def test_life_event_can_return_messages_without_sending_notification(tmp_path: P
 def test_life_event_cleans_chat_title_and_compares_aware_conflicts(tmp_path: Path) -> None:
     async def run() -> None:
         local_tz = timezone(timedelta(hours=8))
+        conflict_start = (datetime.now(local_tz) + timedelta(days=1)).replace(
+            hour=14, minute=30, second=0, microsecond=0
+        )
         existing = CalendarEvent(
             id="existing",
             title="Existing",
-            start=datetime(2026, 5, 19, 14, 30, tzinfo=local_tz),
-            end=datetime(2026, 5, 19, 15, 30, tzinfo=local_tz),
+            start=conflict_start,
+            end=conflict_start + timedelta(hours=1),
             source="feishu",
             platform="feishu",
             calendar_id="primary",

@@ -1,0 +1,52 @@
+name: Bug report
+description: 报告可复现的 Copala 缺陷
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 请先移除 API Key、Token、邮箱内容、日历和个人数据。安全漏洞请按 SECURITY.md 私密报告。
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 实际行为与预期行为分别是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 最小复现步骤
+      placeholder: |
+        1. 使用配置……
+        2. 运行命令……
+        3. 观察到……
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 版本或 Commit
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 环境
+      placeholder: Windows 11 / Python 3.13
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 脱敏日志或补充信息
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认
+      options:
+        - label: 我已搜索已有 Issue。
+          required: true
+        - label: 我确认内容不含凭证或个人数据。
+          required: true

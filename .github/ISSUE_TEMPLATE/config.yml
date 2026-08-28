@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全漏洞
+    url: https://github.com/yuyue1413/Copala/security/advisories/new
+    about: 请使用私密安全报告，不要创建公开 Issue。
+  - name: 支持说明
+    url: https://github.com/yuyue1413/Copala/blob/main/SUPPORT.md
+    about: 提问前请阅读支持范围和脱敏要求。

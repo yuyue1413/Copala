@@ -1,0 +1,66 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "~/.copala/workspace",
+      "model": "openrouter/openai/gpt-4o-mini",
+      "provider": "openrouter",
+      "temperature": 0.1,
+      "maxToolIterations": 40
+    },
+    "fallback": {"enabled": false, "model": "", "provider": "auto"}
+  },
+  "providers": {
+    "openrouter": {"apiKey": "YOUR_OPENROUTER_API_KEY"}
+  },
+  "channels": {
+    "qq": {
+      "enabled": false,
+      "appId": "YOUR_QQ_APP_ID",
+      "secret": "YOUR_QQ_APP_SECRET",
+      "allowFrom": []
+    },
+    "feishu": {
+      "enabled": false,
+      "appId": "YOUR_FEISHU_APP_ID",
+      "appSecret": "YOUR_FEISHU_APP_SECRET",
+      "allowFrom": []
+    }
+  },
+  "tools": {
+    "restrictToWorkspace": true,
+    "web": {
+      "search": {"provider": "auto", "apiKey": "YOUR_SEARCH_API_KEY"}
+    }
+  },
+  "memoryRag": {
+    "enabled": true,
+    "embeddingModel": "local-hash",
+    "autoExtract": true
+  },
+  "calendar": {
+    "enabled": false,
+    "enterpriseEnabled": false,
+    "writeMode": "draft",
+    "providers": {
+      "feishu": {
+        "enabled": false,
+        "authMode": "user",
+        "redirectUri": "http://localhost:18790/feishu/oauth/callback"
+      }
+    }
+  },
+  "lifeEvents": {
+    "enabled": true,
+    "calendarWriteMode": "draft",
+    "notifyChannel": "",
+    "notifyChatId": ""
+  },
+  "smartReminders": {
+    "enabled": true,
+    "amap": {
+      "enabled": false,
+      "apiKey": "YOUR_AMAP_API_KEY",
+      "defaultCity": "上海"
+    }
+  }
+}

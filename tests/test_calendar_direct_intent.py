@@ -15,6 +15,7 @@ def test_calendar_query_intent_excludes_planning_and_writes() -> None:
     assert not AgentLoop._looks_like_readonly_calendar_query("帮我根据今天日程安排写代码时间")
     assert not AgentLoop._looks_like_readonly_calendar_query("创建明天上午10点的一小时项目同步会")
     assert not AgentLoop._looks_like_readonly_calendar_query("把明天的会议改到下午2点")
+    assert not AgentLoop._looks_like_readonly_calendar_query("检查一下今日日程冲突会不会影响我的安排")
 
 
 def test_daily_planning_intent() -> None:
@@ -57,3 +58,5 @@ def test_calendar_status_intent() -> None:
     assert AgentLoop._looks_like_calendar_status_query("检查日历认证状态")
     assert AgentLoop._looks_like_calendar_status_query("查看飞书日历授权配置")
     assert not AgentLoop._looks_like_calendar_status_query("创建一个日历事件")
+    assert not AgentLoop._looks_like_calendar_status_query("检查一下今日日程冲突会不会影响我的安排")
+    assert AgentLoop._looks_like_smart_reminder_query("检查一下今日日程冲突会不会影响我的安排")

@@ -2,6 +2,7 @@
 name = "copala-ai"
 version = "0.1.4.post4"
 description = "A lightweight personal AI assistant framework"
+readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [
@@ -14,6 +15,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 
 dependencies = [
@@ -46,6 +48,12 @@ dependencies = [
     "openai>=2.8.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/yuyue1413/Copala"
+Repository = "https://github.com/yuyue1413/Copala"
+Issues = "https://github.com/yuyue1413/Copala/issues"
+Documentation = "https://github.com/yuyue1413/Copala/tree/main/docs"
+
 [project.optional-dependencies]
 matrix = [
     "matrix-nio[e2e]>=0.25.2",
@@ -53,8 +61,10 @@ matrix = [
     "nh3>=0.2.17,<1.0.0",
 ]
 dev = [
+    "build>=1.2.2,<2.0.0",
     "pytest>=9.0.0,<10.0.0",
     "pytest-asyncio>=1.3.0,<2.0.0",
+    "pytest-cov>=7.0.0,<8.0.0",
     "ruff>=0.1.0",
     "matrix-nio[e2e]>=0.25.2",
     "mistune>=3.0.0,<4.0.0",
@@ -69,25 +79,33 @@ requires = ["hatchling", "editables"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["copala"]
-
-[tool.hatch.build.targets.wheel.sources]
-"copala" = "copala"
+packages = ["src/copala"]
 
 # Include non-Python files in skills and templates
 [tool.hatch.build]
 include = [
-    "copala/**/*.py",
-    "copala/templates/**/*.md",
-    "copala/skills/**/*.md",
-    "copala/skills/**/*.sh",
+    "src/copala/**/*.py",
+    "src/copala/templates/**/*.md",
+    "src/copala/skills/**/*.md",
+    "src/copala/skills/**/*.sh",
 ]
 
 [tool.hatch.build.targets.sdist]
 include = [
-    "copala/",
+    "src/copala/",
+    "docs/",
+    "examples/",
+    "evaluation/",
     "README.md",
+    "README_EN.md",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
     "LICENSE",
+    "LICENSE.nanobot",
+    "NOTICE.md",
+    "SECURITY.md",
+    "SUPPORT.md",
 ]
 
 
@@ -99,6 +117,20 @@ target-version = "py311"
 select = ["E", "F", "I", "N", "W"]
 ignore = ["E501"]
 
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["N806", "N818", "F841"]
+"src/copala/agent/tools/web.py" = ["N803"]
+"evaluation/run.py" = ["E402"]
+
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.coverage.run]
+branch = true
+source = ["copala"]
+
+[tool.coverage.report]
+fail_under = 45
+show_missing = true

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "plan-00",
+    "destination": "杭州",
+    "kind": "trip",
+    "time_range": "2030-10-01 至 2030-10-03",
+    "budget": "1500元",
+    "companions": "两人",
+    "preferences": "轻松、少排队、有本地餐饮"
+  },
+  {
+    "id": "plan-01",
+    "destination": "苏州",
+    "kind": "outing",
+    "time_range": "2030-10-01",
+    "budget": "1800元",
+    "companions": "一人",
+    "preferences": "轻松、少排队、有本地餐饮"
+  },
+  {
+    "id": "plan-02",
+    "destination": "上海",
+    "kind": "trip",
+    "time_range": "2030-10-01 至 2030-10-03",
+    "budget": "2100元",
+    "companions": "两人",
+    "preferences": "轻松、少排队、有本地餐饮"
+  },
+  {
+    "id": "plan-03",
+    "destination": "南京",
+    "kind": "outing",
+    "time_range": "2030-10-01",
+    "budget": "2400元",
+    "companions": "一人",
+    "preferences": "轻松、少排队、有本地餐饮"
+  },
+  {
+    "id": "plan-04",
+    "destination": "成都",
+    "kind": "trip",
+    "time_range": "2030-10-01 至 2030-10-03",
+    "budget": "2700元",
+    "companions": "两人",
+    "preferences": "轻松、少排队、有本地餐饮"
+  },
+  {
+    "id": "plan-05",
+    "destination": "广州",
+    "kind": "outing",
+    "time_range": "2030-10-01",
+    "budget": "3000元",
+    "companions": "一人",
+    "preferences": "轻松、少排队、有本地餐饮"
+  },
+  {
+    "id": "plan-06",
+    "destination": "深圳",
+    "kind": "trip",
+    "time_range": "2030-10-01 至 2030-10-03",
+    "budget": "3300元",
+    "companions": "两人",
+    "preferences": "轻松、少排队、有本地餐饮"
+  },
+  {
+    "id": "plan-07",
+    "destination": "北京",
+    "kind": "outing",
+    "time_range": "2030-10-01",
+    "budget": "3600元",
+    "companions": "一人",
+    "preferences": "轻松、少排队、有本地餐饮"
+  }
+]

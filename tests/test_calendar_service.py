@@ -1,28 +1,31 @@
-from datetime import date
+from datetime import date, datetime, time, timedelta
 from pathlib import Path
 
 from copala.calendar.service import CalendarService
 
 
 def test_calendar_service_reads_json_and_ingests_memory(tmp_path: Path) -> None:
+    event_date = date.today() + timedelta(days=1)
+    start = datetime.combine(event_date, time(hour=9))
+    end = start + timedelta(hours=1)
     calendar = tmp_path / "calendar.json"
     calendar.write_text(
-        """
+        f"""
         [
-          {
+          {{
             "id": "evt-1",
             "title": "RAG Agent 面试会议",
-            "start": "2026-05-18T09:00:00",
-            "end": "2026-05-18T10:00:00",
+            "start": "{start.isoformat()}",
+            "end": "{end.isoformat()}",
             "location": "Online"
-          }
+          }}
         ]
         """,
         encoding="utf-8",
     )
     service = CalendarService(tmp_path, local_json_files=["calendar.json"])
 
-    events = service.list_events(start_date=date(2026, 5, 18), end_date=date(2026, 5, 18))
+    events = service.list_events(start_date=event_date, end_date=event_date)
     count = service.ingest()
 
     assert len(events) == 1
